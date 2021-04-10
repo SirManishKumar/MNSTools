@@ -13,8 +13,8 @@ git clone https://github.com/SirManishKumar/MNSTools
 
 cd MNSTools
 
-chmod +x *
+chmod +x install.py
 
-bash setup.sh
+bash install.py
 
 That's it your work done
