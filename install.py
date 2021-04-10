@@ -57,8 +57,8 @@ print ("\033[1;31m {1}  \033[1;32m Download All Pkg ")        ("\033[1;31m {17} 
 print ("\033[1;31m {2}  \033[1;32m Download AdvPhishing ")    ("\033[1;31m {18}  \033[1;32m Download Tool-X ")
 print ("\033[1;31m {3}  \033[1;32m Download Ngrok ")          ("\033[1;31m {19}  \033[1;32m Download Metasploit-Installation ")
 print ("\033[1;31m {4}  \033[1;32m Download Termux-ADB ")     ("\033[1;31m {20}  \033[1;32m Download Lazymux ")
-print ("\033[1;31m {5}  \033[1;32m Download PhoneSploit ")
-print ("\033[1;31m {6}  \033[1;32m Downloadّ Saycheese ")
+print ("\033[1;31m {5}  \033[1;32m Download PhoneSploit ")    ("\033[1;31m {21}  \033[1;32m Download ManishLock ")
+print ("\033[1;31m {6}  \033[1;32m Downloadّ Saycheese ")      ("\033[1;31m {22}  \033[1;32m Download TermuxMNS ")
 print ("\033[1;31m {7}  \033[1;32m Download Seeker ")
 print ("\033[1;31m {8}  \033[1;32m Download Grabcam ")
 print ("\033[1;31m {9}  \033[1;32m Download Hacklock ")
@@ -288,6 +288,24 @@ elif nmb=="20":
     os.system('chmod +x lazymux.py ')
     os.system('python lazymux.py ')
     jalan ("\033[1;31m        Download Lazymux It's finished Thank you for using my tool               ")
+
+#Download ManishLock
+elif nmb=="21":
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/ManishLock ')
+    os.system('cd ManishLock ')
+    os.system('chmod +x install.sh ')
+    os.system('bash install.sh ')
+    jalan ("\033[1;31m        Download ManishLock It's finished Thank you for using my tool               ")
+
+#Download TermuxMNS
+elif nmb=="22":
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/TermuxMNS ')
+    os.system('cd TermuxMNS ')
+    os.system('chmod +x setup.sh ')
+    os.system('bash setup.sh ')
+    jalan ("\033[1;31m        Download TermuxMNS It's finished Thank you for using my tool               ")
 
 #Try ouvert my tool
 else :
