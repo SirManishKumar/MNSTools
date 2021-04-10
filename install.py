@@ -21,8 +21,8 @@ logo = ("""\033[1;32m───────────────────�
  | |  | | (_| | | | | \__ \ | | | . \ |_| | | | | | | (_| | |
  |_|  |_|\__,_|_| |_|_|___/_| |_|_|\_\__,_|_| |_| |_|\__,_|_|
 ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮
-   Created By:- https://github.com/SirManishKumar/TermuxLock
-     Follow On Twitter:- http://twtter.com/SirManishKumar
+   jalan("Created By:- https://github.com/SirManishKumar/TermuxLock")
+     jalan("Follow On Twitter:- http://twtter.com/SirManishKumar")
 ╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯""")
 #my logo
 print(logo)
@@ -52,29 +52,18 @@ jalan ("\033[1;31m-_-_-_-_-_-_-_-_-_-_- \033[1;38mHello in my World\033[1;31m -_
 jalan("________________((\033[1;38mThis̲ tool by SirManishKumar\033[1;31m))_______________")
 jalan("________________((\033[1;38mIt's All Tools My Favorite\033[1;31m))________________")
 jalan("______________________((\033[1;38mI'm From \033[1;32mIndia))______________________")
-print ("\033[1;31m {0}  \033[1;32m exit ")
-print ("\033[1;31m {1}  \033[1;32m Download All Pkg                      \033[1;31m {1}  \033[1;32m Download All Pkg ")
-print ("\033[1;31m {2}  \033[1;32m Download AdvPhishing ")
-print ("\033[1;31m {3}  \033[1;32m Download Ngrok ")
-print ("\033[1;31m {4}  \033[1;32m Download Termux-ADB ")    
-print ("\033[1;31m {5}  \033[1;32m Download PhoneSploit ")
-print ("\033[1;31m {6}  \033[1;32m Downloadّ Saycheese ")
-print ("\033[1;31m {7}  \033[1;32m Download Seeker ")
-print ("\033[1;31m {8}  \033[1;32m Download Grabcam ")
-print ("\033[1;31m {9}  \033[1;32m Download Hacklock ")
-print ("\033[1;31m {10} \033[1;32m Download Zphisher ")
-print ("\033[1;31m {11} \033[1;32m Download FotoSploit ")
-print ("\033[1;31m {12} \033[1;32m Downloadّ EasY_HaCk ")
-print ("\033[1;31m {13} \033[1;32m Download T-Phish ")
-print ("\033[1;31m {14} \033[1;32m Download Sayhello ")
-print ("\033[1;31m {15} \033[1;32m Downloadّ Lockphish ")
-print ("\033[1;31m {16} \033[1;32m Download Cam-Hackers ")
-print ("\033[1;31m {17} \033[1;32m Download Anon-SMS ")
-print ("\033[1;31m {18} \033[1;32m Download Tool-X ")
-print ("\033[1;31m {19} \033[1;32m Download Metasploit-Installation ")
-print ("\033[1;31m {20} \033[1;32m Download Lazymux ")
-print ("\033[1;31m {21} \033[1;32m Download ManishLock ")
-print ("\033[1;31m {22} \033[1;32m Download TermuxMNS ")
+print ("\033[1;31m {0}  \033[1;32m exit                          \033[1;31m {1}  \033[1;32m Download All Pkg ")
+print ("\033[1;31m {2}  \033[1;32m Download AdvPhishing          \033[1;31m {3}  \033[1;32m Download Ngrok ")
+print ("\033[1;31m {4}  \033[1;32m Download Termux-ADB           \033[1;31m {5}  \033[1;32m Download PhoneSploit ")    
+print ("\033[1;31m {6}  \033[1;32m Downloadّ Saycheese            \033[1;31m {7}  \033[1;32m Download Seeker ")
+print ("\033[1;31m {8}  \033[1;32m Download Grabcam              \033[1;31m {9}  \033[1;32m Download Hacklock ")
+print ("\033[1;31m {10} \033[1;32m Download Zphisher             \033[1;31m {11} \033[1;32m Download FotoSploit ")
+print ("\033[1;31m {12} \033[1;32m Downloadّ EasY_HaCk            \033[1;31m {13} \033[1;32m Download T-Phish ")
+print ("\033[1;31m {14} \033[1;32m Download Sayhello             \033[1;31m {15} \033[1;32m Downloadّ Lockphish ")
+print ("\033[1;31m {16} \033[1;32m Download Cam-Hackers          \033[1;31m {17} \033[1;32m Download Anon-SMS ")
+print ("\033[1;31m {18} \033[1;32m Download Tool-X               \033[1;31m {19} \033[1;32m Download Metasploit ")
+print ("\033[1;31m {20} \033[1;32m Download Lazymux              \033[1;31m {21} \033[1;32m Download ManishLock ")
+print ("\033[1;31m {22} \033[1;32m Download TermuxMNS            \033[1;31m {23} \033[1;32m Download TermuxLock ")
 nmb = input("\033[1;32mChoose number : ")
 if nmb=="0":
     os.system('exit')
@@ -277,7 +266,7 @@ elif nmb=="18":
     os.system('./install.aex ')
     jalan ("\033[1;31m  Download Tool-X It's finished Thank you for using my tool               ")
 
-#Download Metasploit-Installation
+#Download Metasploit
 elif nmb=="19":
     os.system('apt update && apt upgrade')
     os.system('git clone http://github.com/rooted-cyber/Metasploit-Installation ')
@@ -313,6 +302,15 @@ elif nmb=="22":
     os.system('chmod +x setup.sh ')
     os.system('bash setup.sh ')
     jalan ("\033[1;31m  Download TermuxMNS It's finished Thank you for using my tool               ")
+
+#Download TermuxLock
+elif nmb=="23":
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/TermuxLock ')
+    os.system('cd TermuxLock ')
+    os.system('chmod +x install.sh ')
+    os.system('bash install.sh ')
+    jalan ("\033[1;31m  Download TermuxLock It's finished Thank you for using my tool               ")
 
 #Try ouvert my tool
 else :
