@@ -9,7 +9,7 @@ def jalan(z):
 os.system('clear')
 
 #this logo
-logo = ("""\033[1;32m──────────────────────────────────────────────────────────────────────────────────
+logo = ("""\033[1;32m───────────────────────────────────────────────────────────────
 \033[1;32m                           __
           ____  _            |  |        __  __ _   _  ____
          / ___|(_)_ __    ___|  |___    |  \/  | \ | |/ ___|
@@ -48,12 +48,12 @@ def jalan(z):
         time.sleep(00000.02)
 
 #welcom
-jalan ("\033[1;31m-_-_-_-_-_-_-_-_-_-_ \033[1;38mHello in my World\033[1;31m _-_-_-_-_-_-_-_-_-_-")
-jalan("_______________((\033[1;38mThis̲ tool by SirManishKumar\033[1;31m))______________")
-jalan("_______________((\033[1;38mIt's All Tools My Favorite\033[1;31m))_______________")
-jalan("___________________((\033[1;38mI'm From \033[1;32mIndia))__________________")
+jalan ("\033[1;31m-_-_-_-_-_-_-_-_-_-_- \033[1;38mHello in my World\033[1;31m -_-_-_-_-_-_-_-_-_-_-")
+jalan("________________((\033[1;38mThis̲ tool by SirManishKumar\033[1;31m))_______________")
+jalan("________________((\033[1;38mIt's All Tools My Favorite\033[1;31m))________________")
+jalan("______________________((\033[1;38mI'm From \033[1;32mIndia))______________________")
 print ("\033[1;31m {0}  \033[1;32m exit ")
-print ("\033[1;31m {1}  \033[1;32m Download All Pkg ")
+print ("\033[1;31m {1}  \033[1;32m Download All Pkg                      \033[1;31m {1}  \033[1;32m Download All Pkg ")
 print ("\033[1;31m {2}  \033[1;32m Download AdvPhishing ")
 print ("\033[1;31m {3}  \033[1;32m Download Ngrok ")
 print ("\033[1;31m {4}  \033[1;32m Download Termux-ADB ")    
@@ -68,13 +68,13 @@ print ("\033[1;31m {12} \033[1;32m Downloadّ EasY_HaCk ")
 print ("\033[1;31m {13} \033[1;32m Download T-Phish ")
 print ("\033[1;31m {14} \033[1;32m Download Sayhello ")
 print ("\033[1;31m {15} \033[1;32m Downloadّ Lockphish ")
-print ("\033[1;31m {16}  \033[1;32m Download Cam-Hackers ")
-print ("\033[1;31m {17}  \033[1;32m Download Anon-SMS ")
-print ("\033[1;31m {18}  \033[1;32m Download Tool-X ")
-print ("\033[1;31m {19}  \033[1;32m Download Metasploit-Installation ")
-print ("\033[1;31m {20}  \033[1;32m Download Lazymux ")
-print ("\033[1;31m {21}  \033[1;32m Download ManishLock ")
-print ("\033[1;31m {22}  \033[1;32m Download TermuxMNS ")
+print ("\033[1;31m {16} \033[1;32m Download Cam-Hackers ")
+print ("\033[1;31m {17} \033[1;32m Download Anon-SMS ")
+print ("\033[1;31m {18} \033[1;32m Download Tool-X ")
+print ("\033[1;31m {19} \033[1;32m Download Metasploit-Installation ")
+print ("\033[1;31m {20} \033[1;32m Download Lazymux ")
+print ("\033[1;31m {21} \033[1;32m Download ManishLock ")
+print ("\033[1;31m {22} \033[1;32m Download TermuxMNS ")
 nmb = input("\033[1;32mChoose number : ")
 if nmb=="0":
     os.system('exit')
@@ -110,7 +110,7 @@ elif nmb=="1":
     os.system('figlet sniper-gadgets ')
     time.sleep(000.5)
     os.system('clear ')
-    jalan ("\033[1;31m        Download All Pkg It's finished Thank you for using my tool       ")
+    jalan ("\033[1;31m  Download All Pkg It's finished Thank you for using my tool       ")
 
 #Download AdvPhishing
 elif nmb=="2":
@@ -121,7 +121,7 @@ elif nmb=="2":
     os.system('chmod +x * ')
     os.system('bash Android-Setup.sh ')
     os.system('bash AdvPhishing.sh ')
-    jalan("\033[1;31m        Download AdvPhishing It's finished Thank you for using my tool         ")
+    jalan("\033[1;31m  Download AdvPhishing It's finished Thank you for using my tool         ")
 
 #Download Ngrok
 elif nmb=="3":
@@ -131,7 +131,7 @@ elif nmb=="3":
     os.system('unzip ngrok-stable-linux-arm.zip ')
     os.system('chmod 777 ngrok ')
     os.system('rm ngrok-stable-linux-arm.zip ')
-    jalan("\033[1;31m        Download Ngrok It's finished Thank you for using my tool         ")
+    jalan("\033[1;31m   Download Ngrok It's finished Thank you for using my tool         ")
 
 #Download Termux-ADB
 elif nmb=="4":
@@ -141,7 +141,7 @@ elif nmb=="4":
     os.system('cd Termux-ADB ')
     os.system('chmod +x InstallTools.sh ')
     os.system('bash InstallTools.sh ')
-    jalan ("\033[1;31m        Download Termux-ADB It's finished Thank you for using my tool           ")
+    jalan ("\033[1;31m   Download Termux-ADB It's finished Thank you for using my tool           ")
 
 #Download PhoneSploit
 elif nmb=="5":
@@ -151,7 +151,7 @@ elif nmb=="5":
     os.system('cd PhoneSploit ')
     os.system('chmod +x phonesploit.py ')
     os.system('python phonesploit.py ')
-    jalan ("\033[1;31m        Download PhoneSploit It's finished Thank you for using my tool           ")
+    jalan ("\033[1;31m  Download PhoneSploit It's finished Thank you for using my tool           ")
 
 #Download Saycheese
 elif nmb=="6":
@@ -160,7 +160,7 @@ elif nmb=="6":
     os.system('cd saycheese ')
     os.system('chmod +x saycheese.sh ')
     os.system('./saycheese.sh ')
-    jalan ("\033[1;31m        Download Saycheese It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Saycheese It's finished Thank you for using my tool               ")
 
 #Download Seeker
 elif nmb=="7":
@@ -170,7 +170,7 @@ elif nmb=="7":
     os.system('pip install requests ')
     os.system('chmod +x seeker.py ')
     os.system('python seeker.py -t manual ')
-    jalan ("\033[1;31m        Download Seeker It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Seeker It's finished Thank you for using my tool               ")
 
 #Download Grabcam
 elif nmb=="8":
@@ -180,7 +180,7 @@ elif nmb=="8":
     os.system('cd grabcam ')
     os.system('chmod +x grabcam.sh ')
     os.system('bash grabcam.sh ')
-    jalan ("\033[1;31m        Download Grabcam It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Grabcam It's finished Thank you for using my tool               ")
 
 #Download Hacklock
 elif nmb=="9":
@@ -190,7 +190,7 @@ elif nmb=="9":
     os.system('cd hacklock ')
     os.system('chmod +x * ')
     os.system('bash setup ')
-    jalan ("\033[1;31m        Download Hacklock It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Hacklock It's finished Thank you for using my tool               ")
 
 #Download Zphisher
 elif nmb=="10":
@@ -199,7 +199,7 @@ elif nmb=="10":
     os.system('cd zphisher ')
     os.system('chmod +x saycheese.sh ')
     os.system('bash zphisher.sh ')
-    jalan ("\033[1;31m        Download Zphisher It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Zphisher It's finished Thank you for using my tool               ")
 
 #Download FotoSploit
 elif nmb=="11":
@@ -209,7 +209,7 @@ elif nmb=="11":
     os.system('chmod +x * ')
     os.system('bash install.sh ')
     os.system('./FotoSploit ')
-    jalan ("\033[1;31m        Download FotoSploit It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download FotoSploit It's finished Thank you for using my tool               ")
 
 #Download EasY_HaCk
 elif nmb=="12":
@@ -218,7 +218,7 @@ elif nmb=="12":
     os.system('cd EasY_HaCk ')
     os.system('chmod +x install.sh ')
     os.system('./install.sh ')
-    jalan ("\033[1;31m        Download EasY_HaCk It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download EasY_HaCk It's finished Thank you for using my tool               ")
 
 #Download T-Phish
 elif nmb=="13":
@@ -230,7 +230,7 @@ elif nmb=="13":
     os.system('chmod +x * ')
     os.system('./start.sh ')
     os.system('./phish.sh ')
-    jalan ("\033[1;31m        Download T-Phish It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download T-Phish It's finished Thank you for using my tool               ")
 
 #Download Sayhello
 elif nmb=="14":
@@ -239,7 +239,7 @@ elif nmb=="14":
     os.system('cd sayhellodeepak ')
     os.system('chmod +x sayhello.sh ')
     os.system('bash sayhello.sh ')
-    jalan ("\033[1;31m        Download Sayhello It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Sayhello It's finished Thank you for using my tool               ")
 
 #Download Lockphish
 elif nmb=="15":
@@ -248,7 +248,7 @@ elif nmb=="15":
     os.system('cd lockphish ')
     os.system('chmod +x lockphish.sh ')
     os.system('bash lockphish.sh ')
-    jalan ("\033[1;31m        Download Lockphish It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Lockphish It's finished Thank you for using my tool               ")
 
 #Download Cam-Hackers
 elif nmb=="16":
@@ -257,7 +257,7 @@ elif nmb=="16":
     os.system('cd Cam-Hackers ')
     os.system('chmod +x cam-hackers.py ')
     os.system('python3 cam-hackers.py ')
-    jalan ("\033[1;31m        Download Cam-Hackers It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Cam-Hackers It's finished Thank you for using my tool               ")
 
 #Download Anon-SMS
 elif nmb=="17":
@@ -266,7 +266,7 @@ elif nmb=="17":
     os.system('cd Anon-SMS ')
     os.system('chmod +x * ')
     os.system('bash Run.sh ')
-    jalan ("\033[1;31m        Download Anon-SMS It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Anon-SMS It's finished Thank you for using my tool               ")
 
 #Download Tool-X
 elif nmb=="18":
@@ -275,7 +275,7 @@ elif nmb=="18":
     os.system('cd Tool-X ')
     os.system('chmod +x install.aex ')
     os.system('./install.aex ')
-    jalan ("\033[1;31m        Download Tool-X It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Tool-X It's finished Thank you for using my tool               ")
 
 #Download Metasploit-Installation
 elif nmb=="19":
@@ -285,7 +285,7 @@ elif nmb=="19":
     os.system('chmod +x setup.sh ')
     os.system('bash setup.sh ')
     os.system('bash metasploit.sh ')
-    jalan ("\033[1;31m        Download Metasploit-Installation It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Metasploit-Installation It's finished Thank you for using my tool               ")
 
 #Download Lazymux
 elif nmb=="20":
@@ -294,7 +294,7 @@ elif nmb=="20":
     os.system('cd Lazymux ')
     os.system('chmod +x lazymux.py ')
     os.system('python lazymux.py ')
-    jalan ("\033[1;31m        Download Lazymux It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download Lazymux It's finished Thank you for using my tool               ")
 
 #Download ManishLock
 elif nmb=="21":
@@ -303,7 +303,7 @@ elif nmb=="21":
     os.system('cd ManishLock ')
     os.system('chmod +x install.sh ')
     os.system('bash install.sh ')
-    jalan ("\033[1;31m        Download ManishLock It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download ManishLock It's finished Thank you for using my tool               ")
 
 #Download TermuxMNS
 elif nmb=="22":
@@ -312,7 +312,7 @@ elif nmb=="22":
     os.system('cd TermuxMNS ')
     os.system('chmod +x setup.sh ')
     os.system('bash setup.sh ')
-    jalan ("\033[1;31m        Download TermuxMNS It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m  Download TermuxMNS It's finished Thank you for using my tool               ")
 
 #Try ouvert my tool
 else :
