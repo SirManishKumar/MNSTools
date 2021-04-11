@@ -317,12 +317,12 @@ elif nmb=="23":
 elif nmb=="99":
     os.system('apt update && apt upgrade')
     os.system('pkg install python -y ')
-    os.system('cd && rm -rf MNSTools ')
+    os.system('cd /data/data/com.termux/files/home && rm -rf MNSTools ')
     os.system('git clone https://github.com/SirManishKumar/MNSTools ')
     os.system('mv MNSTools $HOME ')
     os.system('cd && cd MNSTools && chmod +x install.py && python install.py ')
     jalan ("\033[1;31m  Update MNSTools It's finished Thank you for using my tool               ")
-    os.system('python install.py ')
+    os.system('cd /data/data/com.termux/files/home/MNSTools && python install.py ')
 
 #Try ouvert my tool
 else :
