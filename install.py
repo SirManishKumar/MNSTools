@@ -21,7 +21,7 @@ logo = ("""\033[1;32m───────────────────�
  | |  | | (_| | | | | \__ \ | | | . \ |_| | | | | | | (_| | |
  |_|  |_|\__,_|_| |_|_|___/_| |_|_|\_\__,_|_| |_| |_|\__,_|_|
 ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮
-   Created By:- https://github.com/SirManishKumar/TermuxLock
+   Created By:- https://github.com/SirManishKumar/MNSTools
      Follow On Twitter:- http://twtter.com/SirManishKumar
 ╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯""")
 #my logo
@@ -73,7 +73,7 @@ if nmb=="0":
 #Download All Pkg
 elif nmb=="1":
     os.system('apt update && apt upgrade -y ')
-    os.system('pkg update && upgrade ')
+    os.system('pkg update && upgrade -y')
     os.system('pkg install git -y' )
     os.system('pkg install python -y ')
     os.system('pkg install python2 -y ')
@@ -84,16 +84,17 @@ elif nmb=="1":
     os.system('pkg install wget -y ')
     os.system('pkg install php -y ')
     os.system('pkg install ruby -y ')
-    os.system('pip install --upgrade pip ')
+    os.system('pip install --upgrade pip -y ')
     os.system('pkg install perl -y ')
     os.system('pkg install zip -y ')
     os.system('pkg install unzip -y ')
     os.system('pkg install openssl -y ')
     os.system('pkg install cmatrix -y ')
     os.system('pkg install openssh ')
-    os.system('pip install colorama ')
-    os.system('pip2 install requests ')
-    os.system('pip3 install requests ')
+    os.system('pip install lolcat -y ')
+    os.system('pip install colorama -y ')
+    os.system('pip2 install requests -y ')
+    os.system('pip3 install requests -y ')
     os.system('clear ')
     os.system('apt update && apt upgrade -y ')
     os.system('clear ')
