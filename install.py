@@ -13,7 +13,7 @@ logo = ("""\033[1;32m───────────────────�
 \033[1;36m                              __
 \033[1;36m          ____  _            |  |        __  __ _   _  ____
 \033[1;36m         / ___|(_)_ __    ___|  |___    |  \/  | \ | |/ ___|
-\033[1;32m         \___ \| | `__|   \__    __/    | |\/| |  \| |\___ \
+\033[1;32m         \___ \| | `__|   \__    __/    | |\/| |  \| |\___ \\
 \033[1;32m               ___) | | |         \  /       | |  | | |\  | ___) |
 \033[1;31m  __  __ |____/|_|_| _     _  \/ _  __  |_|  |_|_| \_||____/
 \033[1;31m |  \/  | __ _ _ __ (_)___| |__ | |/ /   _ _ __ ___   __ _ _ _
@@ -28,9 +28,8 @@ logo = ("""\033[1;32m───────────────────�
 print(logo)
 jalan("################################################################")
 print("")
-print("    \033[1;32mPlease don't forget to subscribe to my YouTube channel")
-print("             \033[1;31m{\033[1;33mhttps://www.youtube.com/mnspandit\033[1;31m}")
-print("            {\033[1;33mMy youtube channel: SirManishKumar\033[1;31m}")
+print("             \033[1;31m{\033[1;33mMy youtube channel: SirManishKumar\033[1;31m}")
+print("            {\033[1;33mMy twitter account: SirManishKumar\033[1;31m}")
 print("             {\033[1;33mMy github account: SirManishKumar\033[1;31m}")
 print("            {\033[1;33mMy facebook account: SirManishKumar\033[1;31m}")
 def jalan(z):
@@ -38,7 +37,7 @@ def jalan(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(00000.08)
-jalan ("                 \033[1;31mThank you for using my tool             ")
+jalan ("                 \033[1;31mThank you for using MNStool             ")
 def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
