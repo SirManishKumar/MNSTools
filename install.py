@@ -313,11 +313,13 @@ elif nmb=="23":
     jalan ("\033[1;31m  Download TermuxLock It's finished Thank you for using my tool               ")
     os.system('python install.py ')
 
-#Download Update
+#Download Update MNSTools
 elif nmb=="99":
     os.system('apt update && apt upgrade')
+    os.system('pkg install python -y ')
+    os.system('cd && rm -rf MNSTools ')
     os.system('git clone https://github.com/SirManishKumar/MNSTools ')
-    os.system('mv TermuxLock $HOME ')
+    os.system('mv MNSTools $HOME ')
     os.system('cd && cd MNSTools && chmod +x install.py && python install.py ')
     jalan ("\033[1;31m  Update MNSTools It's finished Thank you for using my tool               ")
     os.system('python install.py ')
