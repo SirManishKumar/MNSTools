@@ -107,17 +107,15 @@ elif nmb=="1":
 elif nmb=="2":
     os.system('apt update && apt upgrade')
     os.system('pkg install git ')
-    os.system('git clone https://github.com/Ignitetch/AdvPhishing ')
-    os.system('cd AdvPhishing ')
-    os.system('chmod +x * ')
-    os.system('bash Android-Setup.sh ')
-    os.system('bash AdvPhishing.sh ')
+    os.system('cd ')
+    os.system('git clone https://github.com/Ignitetch/AdvPhishing && cd AdvPhishing && chmod +x * && bash Android-Setup.sh ')
     jalan("\033[1;31m  Download AdvPhishing It's finished Thank you for using my tool         ")
 
 #Download Ngrok
 elif nmb=="3":
     os.system('apt update && apt upgrade')
     os.system('pkg install wget ')
+    os.system('cd ')
     os.system('wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip ')
     os.system('unzip ngrok-stable-linux-arm.zip ')
     os.system('chmod 777 ngrok ')
