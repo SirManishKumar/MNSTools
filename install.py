@@ -73,7 +73,7 @@ if nmb=="0":
 #Download All Pkg
 elif nmb=="1":
     os.system('apt update && apt upgrade -y ')
-    os.system('pkg update && upgrade -y')
+    os.system('pkg update && pkg upgrade -y')
     os.system('pkg install git -y' )
     os.system('pkg install python -y ')
     os.system('pkg install python2 -y ')
