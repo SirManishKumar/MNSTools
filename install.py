@@ -72,6 +72,7 @@ if nmb=="0":
 
 #Download All Pkg
 elif nmb=="1":
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade -y ')
     os.system('pkg update && pkg upgrade -y')
     os.system('pkg install git -y' )
