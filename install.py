@@ -107,8 +107,9 @@ elif nmb=="1":
 elif nmb=="2":
     os.system('apt update && apt upgrade')
     os.system('pkg install git ')
-    os.system('cd ')
-    os.system('git clone https://github.com/Ignitetch/AdvPhishing && cd AdvPhishing && chmod +x * && bash Android-Setup.sh ')
+    os.system('git clone https://github.com/Ignitetch/AdvPhishing  ')
+    os.system('mv AdvPhishing $HOME ')
+    os.system('cd && cd AdvPhishing && chmod +x * && bash Android-Setup.sh ')
     jalan("\033[1;31m  Download AdvPhishing It's finished Thank you for using my tool         ")
 
 #Download Ngrok
@@ -261,7 +262,8 @@ elif nmb=="17":
 elif nmb=="18":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Rajkumrdusad/Tool-X.git ')
-    os.system('cd Tool-X ')
+    os.system('mv Tool-X $HOME ')
+    os.system('cd ; cd Tool-X ')
     os.system('chmod +x install.aex ')
     os.system('./install.aex ')
     jalan ("\033[1;31m  Download Tool-X It's finished Thank you for using my tool               ")
