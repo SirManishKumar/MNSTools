@@ -117,8 +117,7 @@ elif nmb=="3":
     os.system('pkg install wget ')
     os.system('wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip ')
     os.system('mv ngrok-stable-linux-arm.zip $HOME ')
-    os.system('cd && unzip ngrok-stable-linux-arm.zip && chmod 777 ngrok ')
-    os.system('rm ngrok-stable-linux-arm.zip ')
+    os.system('cd && unzip ngrok-stable-linux-arm.zip && chmod 777 ngrok && rm -rf ngrok-stable-linux-arm.zip ')
     jalan("\033[1;31m   Download Ngrok It's finished Thank you for using my tool         ")
 
 #Download Termux-ADB
