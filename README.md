@@ -17,6 +17,6 @@ cd MNSTools
 
 chmod +x install.py
 
-bash install.py
+python install.py
 
 That's it your work done
