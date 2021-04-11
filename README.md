@@ -7,6 +7,8 @@ apt update -y
 
 apt upgrade -y
 
+pkg install python -y
+
 pkg install git -y
 
 git clone https://github.com/SirManishKumar/MNSTools
