@@ -67,6 +67,7 @@ print ("\033[1;31m {20} \033[1;32m Download Lazymux           \033[1;31m {21} \0
 print ("\033[1;31m {22} \033[1;32m Download TermuxMNS         \033[1;31m {23} \033[1;32m Download TermuxLock ")
 print("")
 nmb = input("\033[1;32mChoose number : ")
+print("")
 if nmb=="0":
     os.system('exit')
     os.system('clear')
@@ -129,9 +130,7 @@ elif nmb=="4":
     os.system('pkg install wget ')
     os.system('git clone https://github.com/MasterDevX/Termux-ADB ')
     os.system('mv Termux-ADB $HOME ')
-    os.system('cd ; cd Termux-ADB ')
-    os.system('chmod +x InstallTools.sh ')
-    os.system('bash InstallTools.sh ')
+    os.system('cd && cd Termux-ADB && chmod +x InstallTools.sh && bash InstallTools.sh ')
     jalan ("\033[1;31m   Download Termux-ADB It's finished Thank you for using my tool           ")
 
 #Download PhoneSploit
@@ -140,9 +139,7 @@ elif nmb=="5":
     os.system('pkg install git ')
     os.system('git clone https://github.com/01010000-kumar/PhoneSploit ')
     os.system('mv PhoneSploit $HOME ')
-    os.system('cd ; cd PhoneSploit ')
-    os.system('chmod +x phonesploit.py ')
-    os.system('python phonesploit.py ')
+    os.system('cd && cd PhoneSploit && chmod +x phonesploit.py && python phonesploit.py ')
     jalan ("\033[1;31m  Download PhoneSploit It's finished Thank you for using my tool           ")
 
 #Download Saycheese
@@ -150,9 +147,7 @@ elif nmb=="6":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Technicalheadquarter/saycheese ')
     os.system('mv saycheese $HOME ')
-    os.system('cd ; cd saycheese ')
-    os.system('chmod +x saycheese.sh ')
-    os.system('./saycheese.sh ')
+    os.system('cd && cd saycheese && chmod +x saycheese.sh && ./saycheese.sh ')
     jalan ("\033[1;31m  Download Saycheese It's finished Thank you for using my tool               ")
 
 #Download Seeker
@@ -160,10 +155,7 @@ elif nmb=="7":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/thewhiteh4t/seeker ')
     os.system('mv seeker $HOME ')
-    os.system('cd ; cd seeker ')
-    os.system('pip install requests ')
-    os.system('chmod +x seeker.py ')
-    os.system('python seeker.py -t manual ')
+    os.system('cd && cd seeker && pip install requests && chmod +x seeker.py && python seeker.py -t manual ')
     jalan ("\033[1;31m  Download Seeker It's finished Thank you for using my tool               ")
 
 #Download Grabcam
@@ -172,9 +164,7 @@ elif nmb=="8":
     os.system('pip install lolcat ')
     os.system('git clone https://github.com/noob-hackers/grabcam ')
     os.system('mv grabcam $HOME ')
-    os.system('cd ; cd grabcam ')
-    os.system('chmod +x grabcam.sh ')
-    os.system('bash grabcam.sh ')
+    os.system('cd && cd grabcam && chmod +x grabcam.sh && bash grabcam.sh ')
     jalan ("\033[1;31m  Download Grabcam It's finished Thank you for using my tool               ")
 
 #Download Hacklock
@@ -183,9 +173,7 @@ elif nmb=="9":
     os.system('pip install lolcat ')
     os.system('git clone https://github.com/noob-hackers/hacklock ')
     os.system('mv hacklock $HOME ')
-    os.system('cd ; cd hacklock ')
-    os.system('chmod +x * ')
-    os.system('bash setup ')
+    os.system('cd && cd hacklock && chmod +x * && bash setup ')
     jalan ("\033[1;31m  Download Hacklock It's finished Thank you for using my tool               ")
 
 #Download Zphisher
@@ -193,9 +181,7 @@ elif nmb=="10":
     os.system('apt update && apt upgrade')
     os.system('git clone git://github.com/htr-tech/zphisher.git ')
     os.system('mv zphisher $HOME ')
-    os.system('cd ; cd zphisher ')
-    os.system('chmod +x saycheese.sh ')
-    os.system('bash zphisher.sh ')
+    os.system('cd && cd zphisher && chmod +x saycheese.sh && bash zphisher.sh ')
     jalan ("\033[1;31m  Download Zphisher It's finished Thank you for using my tool               ")
 
 #Download FotoSploit
@@ -203,10 +189,7 @@ elif nmb=="11":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Cesar-Hack-Gray/FotoSploit ')
     os.system('mv FotoSploit $HOME ')
-    os.system('cd ; cd FotoSploit ')
-    os.system('chmod +x * ')
-    os.system('bash install.sh ')
-    os.system('./FotoSploit ')
+    os.system('cd && cd FotoSploit && chmod +x * && bash install.sh && ./FotoSploit ')
     jalan ("\033[1;31m  Download FotoSploit It's finished Thank you for using my tool               ")
 
 #Download EasY_HaCk
@@ -214,9 +197,7 @@ elif nmb=="12":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/sabri-zaki/EasY_HaCk ')
     os.system('mv EasY_HaCk $HOME ')
-    os.system('cd ; cd EasY_HaCk ')
-    os.system('chmod +x install.sh ')
-    os.system('./install.sh ')
+    os.system('cd && cd EasY_HaCk && chmod +x install.sh && ./install.sh ')
     jalan ("\033[1;31m  Download EasY_HaCk It's finished Thank you for using my tool               ")
 
 #Download T-Phish
@@ -224,12 +205,7 @@ elif nmb=="13":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Stephin-Franklin/T-Phish ')
     os.system('mv T-Phish $HOME ')
-    os.system('cd ; cd T-Phish ')
-    os.system('unzip T-Phish.zip ')
-    os.system('cd T-Phish ')
-    os.system('chmod +x * ')
-    os.system('./start.sh ')
-    os.system('./phish.sh ')
+    os.system('cd && cd T-Phish & unzip T-Phish.zip && cd T-Phish && chmod +x * && ./start.sh && ./phish.sh ')
     jalan ("\033[1;31m  Download T-Phish It's finished Thank you for using my tool               ")
 
 #Download Sayhello
@@ -237,9 +213,7 @@ elif nmb=="14":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/deepakverma91123/sayhellodeepak.git ')
     os.system('mv sayhellodeepak $HOME ')
-    os.system('cd ; cd sayhellodeepak ')
-    os.system('chmod +x sayhello.sh ')
-    os.system('bash sayhello.sh ')
+    os.system('cd && cd sayhellodeepak && chmod +x sayhello.sh && bash sayhello.sh ')
     jalan ("\033[1;31m  Download Sayhello It's finished Thank you for using my tool               ")
 
 #Download Lockphish
@@ -247,9 +221,7 @@ elif nmb=="15":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/kali-linux-tutorial/lockphish ')
     os.system('mv lockphish $HOME ')
-    os.system('cd ; cd lockphish ')
-    os.system('chmod +x lockphish.sh ')
-    os.system('bash lockphish.sh ')
+    os.system('cd && cd lockphish && chmod +x lockphish.sh && bash lockphish.sh ')
     jalan ("\033[1;31m  Download Lockphish It's finished Thank you for using my tool               ")
 
 #Download Cam-Hackers
@@ -257,9 +229,7 @@ elif nmb=="16":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers ')
     os.system('mv Cam-Hackers $HOME ')
-    os.system('cd ; cd Cam-Hackers ')
-    os.system('chmod +x cam-hackers.py ')
-    os.system('python3 cam-hackers.py ')
+    os.system('cd && cd Cam-Hackers && chmod +x cam-hackers.py && python3 cam-hackers.py ')
     jalan ("\033[1;31m  Download Cam-Hackers It's finished Thank you for using my tool               ")
 
 #Download Anon-SMS
@@ -267,9 +237,7 @@ elif nmb=="17":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/HACK3RY2J/Anon-SMS.git ')
     os.system('mv Anon-SMS $HOME ')
-    os.system('cd ; cd Anon-SMS ')
-    os.system('chmod +x * ')
-    os.system('bash Run.sh ')
+    os.system('cd && cd Anon-SMS && chmod +x * && bash Run.sh ')
     jalan ("\033[1;31m  Download Anon-SMS It's finished Thank you for using my tool               ")
 
 #Download Tool-X
@@ -277,9 +245,7 @@ elif nmb=="18":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Rajkumrdusad/Tool-X.git ')
     os.system('mv Tool-X $HOME ')
-    os.system('cd ; cd Tool-X ')
-    os.system('chmod +x install.aex ')
-    os.system('./install.aex ')
+    os.system('cd && cd Tool-X && chmod +x install.aex && ./install.aex ')
     jalan ("\033[1;31m  Download Tool-X It's finished Thank you for using my tool               ")
 
 #Download Metasploit
@@ -287,10 +253,7 @@ elif nmb=="19":
     os.system('apt update && apt upgrade')
     os.system('git clone http://github.com/rooted-cyber/Metasploit-Installation ')
     os.system('mv Metasploit-Installation $HOME ')
-    os.system('cd ; cd Metasploit-Installation ')
-    os.system('chmod +x setup.sh ')
-    os.system('bash setup.sh ')
-    os.system('bash metasploit.sh ')
+    os.system('cd && cd Metasploit-Installation && chmod +x setup.sh && bash setup.sh && bash metasploit.sh ')
     jalan ("\033[1;31m  Download Metasploit-Installation It's finished Thank you for using my tool               ")
 
 #Download Lazymux
@@ -298,9 +261,7 @@ elif nmb=="20":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Gameye98/Lazymux ')
     os.system('mv Lazymux $HOME ')
-    os.system('cd ; cd Lazymux ')
-    os.system('chmod +x lazymux.py ')
-    os.system('python lazymux.py ')
+    os.system('cd && cd Lazymux && chmod +x lazymux.py && python lazymux.py ')
     jalan ("\033[1;31m  Download Lazymux It's finished Thank you for using my tool               ")
 
 #Download ManishLock
@@ -308,9 +269,7 @@ elif nmb=="21":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/SirManishKumar/ManishLock ')
     os.system('mv ManishLock $HOME ')
-    os.system('cd ; cd ManishLock ')
-    os.system('chmod +x install.sh ')
-    os.system('bash install.sh ')
+    os.system('cd && cd ManishLock && chmod +x install.sh && bash install.sh ')
     jalan ("\033[1;31m  Download ManishLock It's finished Thank you for using my tool               ")
 
 #Download TermuxMNS
@@ -318,9 +277,7 @@ elif nmb=="22":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/SirManishKumar/TermuxMNS ')
     os.system('mv TermuxMNS $HOME ')
-    os.system('cd ; cd TermuxMNS ')
-    os.system('chmod +x setup.sh ')
-    os.system('bash setup.sh ')
+    os.system('cd && cd TermuxMNS && chmod +x setup.sh && bash setup.sh ')
     jalan ("\033[1;31m  Download TermuxMNS It's finished Thank you for using my tool               ")
 
 #Download TermuxLock
@@ -328,9 +285,7 @@ elif nmb=="23":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/SirManishKumar/TermuxLock ')
     os.system('mv TermuxLock $HOME ')
-    os.system('cd ; cd TermuxLock ')
-    os.system('chmod +x install.sh ')
-    os.system('bash install.sh ')
+    os.system('cd && cd TermuxLock && chmod +x install.sh && bash install.sh ')
     jalan ("\033[1;31m  Download TermuxLock It's finished Thank you for using my tool               ")
 
 #Try ouvert my tool
