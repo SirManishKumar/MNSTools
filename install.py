@@ -14,7 +14,7 @@ logo = ("""\033[1;32m───────────────────�
           ____  _            |  |        __  __ _   _  ____
          / ___|(_)_ __    ___|  |___    |  \/  | \ | |/ ___|
          \___ \| | `__|   \__    __/    | |\/| |  \| |\___ \
-          ___) | | |         \  /       | |  | | |\  | ___) |
+             ___) | | |         \  /       | |  | | |\  | ___) |
   __  __ |____/|_|_| _     _  \/ _  __  |_|  |_|_| \_||____/
  |  \/  | __ _ _ __ (_)___| |__ | |/ /   _ _ __ ___   __ _ _ _
  | |\/| |/ _` | `_ \| / __| `_ \| ` / | | | `_ ` _ \ / _` | `_|
@@ -29,10 +29,10 @@ print(logo)
 jalan("################################################################")
 print("")
 print("   \033[1;32mPlease don't forget to subscribe to my YouTube channel")
-print("             \033[1;33mhttps://www.youtube.com/mnspandit")
-print("            \033[1;31m{\033[1;33mMy youtube channel: SirManishKumar\033[1;31m}")
-print("            {\033[1;33mMy github account: SirManishKumar\033[1;31m}")
-print("               {\033[1;33mMy facebook SirManishKumar\033[1;31m}")
+print("             \033[1;31m{\033[1;33mhttps://www.youtube.com/mnspandit\033[1;31m}")
+print("            {\033[1;33mMy youtube channel: SirManishKumar\033[1;31m}")
+print("             {\033[1;33mMy github account: SirManishKumar\033[1;31m}")
+print("            {\033[1;33mMy facebook account: SirManishKumar\033[1;31m}")
 def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
@@ -110,6 +110,7 @@ elif nmb=="2":
     os.system('mv AdvPhishing $HOME ')
     os.system('cd && cd AdvPhishing && chmod +x * && bash Android-Setup.sh ')
     jalan("\033[1;31m  Download AdvPhishing It's finished Thank you for using my tool         ")
+    os.system('python install.py ')
 
 #Download Ngrok
 elif nmb=="3":
