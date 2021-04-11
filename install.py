@@ -28,7 +28,7 @@ logo = ("""\033[1;32m───────────────────�
 print(logo)
 jalan("################################################################")
 print("")
-print("\033[1;32mPlease don't forget to subscribe to my YouTube channel")
+print("   \033[1;32mPlease don't forget to subscribe to my YouTube channel")
 time.sleep(6)
 
 os.system('xdg-open https://www.youtube.com/mnspandit')
@@ -40,7 +40,7 @@ def jalan(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(00000.08)
-jalan ("                \033[1;31mThank you for using my tool            ")
+jalan ("                \033[1;31mThank you for using my tool             ")
 def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
@@ -48,10 +48,10 @@ def jalan(z):
         time.sleep(00000.02)
 
 #welcom
-jalan ("\033[1;31m-_-_-_-_-_-_-_-_-_-_- \033[1;38mHello in my World\033[1;31m -_-_-_-_-_-_-_-_-_-_-")
-jalan("________________((\033[1;38mThis̲ tool by SirManishKumar\033[1;31m))_______________")
-jalan("________________((\033[1;38mIt's All Tools My Favorite\033[1;31m))________________")
-jalan("______________________((\033[1;38mI'm From \033[1;32mIndia\033[1;31m))______________________")
+jalan ("\033[1;31m-_-_-_-_-_-_-_-_-_-_- \033[1;33mHello in my World\033[1;31m -_-_-_-_-_-_-_-_-_-_-")
+jalan("________________((\033[1;33mThis̲ tool by SirManishKumar\033[1;31m))_______________")
+jalan("________________((\033[1;33mIt's All Tools My Favorite\033[1;31m))________________")
+jalan("______________________((\033[1;33mI'm From \033[1;32mIndia\033[1;31m))______________________")
 print("")
 print ("\033[1;31m {0}  \033[1;32m exit                       \033[1;31m {1}  \033[1;32m Download All Pkg ")
 print ("\033[1;31m {2}  \033[1;32m Download AdvPhishing       \033[1;31m {3}  \033[1;32m Download Ngrok ")
@@ -119,8 +119,7 @@ elif nmb=="3":
     os.system('pkg install wget ')
     os.system('wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip ')
     os.system('mv ngrok-stable-linux-arm.zip $HOME ')
-    os.system('unzip ngrok-stable-linux-arm.zip ')
-    os.system('chmod 777 ngrok ')
+    os.system('cd && unzip ngrok-stable-linux-arm.zip && chmod 777 ngrok ')
     os.system('rm ngrok-stable-linux-arm.zip ')
     jalan("\033[1;31m   Download Ngrok It's finished Thank you for using my tool         ")
 
