@@ -31,7 +31,7 @@ print("")
 print("\033[1;32mPlease don't forget to subscribe to my YouTube channel")
 time.sleep(6)
 
-print("\033[1;31m{\033[1;33mhttps://www.youtube.com/mnspandit\033[1;31m}')
+os.system('xdg-open https://www.youtube.com/mnspandit')
 print("\033[1;31m{\033[1;33mmy youtube channel: SirManishKumar\033[1;31m}")
 print("{\033[1;33mmy github account : SirManishKumar\033[1;31m}")
 print("{\033[1;33mmy facebook SirManishKumar\033[1;31m}")
