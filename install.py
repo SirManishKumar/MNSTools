@@ -10,20 +10,20 @@ os.system('clear')
 
 #this logo
 logo = ("""\033[1;32m───────────────────────────────────────────────────────────────
-\033[1;32m                              __
-          ____  _            |  |        __  __ _   _  ____
-         / ___|(_)_ __    ___|  |___    |  \/  | \ | |/ ___|
-         \___ \| | `__|   \__    __/    | |\/| |  \| |\___ \
-               ___) | | |         \  /       | |  | | |\  | ___) |
-  __  __ |____/|_|_| _     _  \/ _  __  |_|  |_|_| \_||____/
- |  \/  | __ _ _ __ (_)___| |__ | |/ /   _ _ __ ___   __ _ _ _
- | |\/| |/ _` | `_ \| / __| `_ \| ` / | | | `_ ` _ \ / _` | `_|
- | |  | | (_| | | | | \__ \ | | | . \ |_| | | | | | | (_| | |
- |_|  |_|\__,_|_| |_|_|___/_| |_|_|\_\__,_|_| |_| |_|\__,_|_|
+\033[1;36m                              __
+\033[1;36m          ____  _            |  |        __  __ _   _  ____
+\033[1;36m         / ___|(_)_ __    ___|  |___    |  \/  | \ | |/ ___|
+\033[1;32m         \___ \| | `__|   \__    __/    | |\/| |  \| |\___ \
+\033[1;32m               ___) | | |         \  /       | |  | | |\  | ___) |
+\033[1;31m  __  __ |____/|_|_| _     _  \/ _  __  |_|  |_|_| \_||____/
+\033[1;31m |  \/  | __ _ _ __ (_)___| |__ | |/ /   _ _ __ ___   __ _ _ _
+\033[1;37m | |\/| |/ _` | `_ \| / __| `_ \| ` / | | | `_ ` _ \ / _` | `_|
+\033[1;37m | |  | | (_| | | | | \__ \ | | | . \ |_| | | | | | | (_| | |
+\033[1;32m |_|  |_|\__,_|_| |_|_|___/_| |_|_|\_\__,_|_| |_| |_|\__,_|_|
 ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮
-   Created By:- https://github.com/SirManishKumar/MNSTools
-     Follow On Twitter:- http://twtter.com/SirManishKumar
-╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯""")
+\033[1;31m   Created By:- https://github.com/SirManishKumar/MNSTools
+\033[1;31m     Follow On Twitter:- http://twtter.com/SirManishKumar
+\033[1;32m╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯""")
 #my logo
 print(logo)
 jalan("################################################################")
@@ -75,27 +75,30 @@ elif nmb=="1":
     os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade -y ')
     os.system('pkg update && pkg upgrade -y')
-    os.system('pkg install git -y' )
-    os.system('pkg install python -y ')
-    os.system('pkg install python2 -y ')
-    os.system('pkg install unzip -y ')
-    os.system('pkg install nano -y ')
-    os.system('pkg install figlet -y ')
-    os.system('pkg install curl -y ')
-    os.system('pkg install wget -y ')
-    os.system('pkg install php -y ')
-    os.system('pkg install ruby -y ')
-    os.system('pip install --upgrade pip -y ')
-    os.system('pkg install perl -y ')
-    os.system('pkg install zip -y ')
-    os.system('pkg install unzip -y ')
-    os.system('pkg install openssl -y ')
-    os.system('pkg install cmatrix -y ')
+    os.system('pkg install git ')
+    os.system('pkg install python ')
+    os.system('pip3 install requests ')
+    os.system('pkg install python2 ')
+    os.system('pip2 install requests ')
+    os.system('pip install --upgrade pip ')
+    os.system('pkg install unzip ')
+    os.system('pkg install nano ')
+    os.system('apt update && apt upgrade -y ')
+    os.system('pkg install figlet ')
+    os.system('pkg install curl ')
+    os.system('pkg install wget ')
+    os.system('pkg install php ')
+    os.system('pkg install ruby ')
+    os.system('pkg install perl ')
+    os.system('pkg install zip ')
+    os.system('pkg install unzip ')
+    os.system('pkg install openssl-tool ')
+    os.system('apt update && apt upgrade -y ')
+    os.system('pkg install cmatrix ')
     os.system('pkg install openssh ')
-    os.system('pip install lolcat -y ')
-    os.system('pip install colorama -y ')
-    os.system('pip2 install requests -y ')
-    os.system('pip3 install requests -y ')
+    os.system('pip install lolcat ')
+    os.system('pip install colorama ')
+    os.system('apt –fix-broken install ')
     os.system('clear ')
     os.system('apt update && apt upgrade -y ')
     os.system('clear ')
@@ -103,6 +106,7 @@ elif nmb=="1":
     time.sleep(000.5)
     os.system('clear ')
     jalan ("\033[1;31m  Download All Pkg It's finished Thank you for using my tool       ")
+    os.system('python install.py ')
 
 #Download AdvPhishing
 elif nmb=="2":
