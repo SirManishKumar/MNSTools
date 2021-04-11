@@ -1,4 +1,4 @@
-
+#!/bin/bash
 import os,sys,time
 #sys1
 def jalan(z):
