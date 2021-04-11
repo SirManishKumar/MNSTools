@@ -51,7 +51,7 @@ jalan("________________((\033[1;33mThis̲ tool by SirManishKumar\033[1;31m))____
 jalan("________________((\033[1;33mIt's All Tools My Favorite\033[1;31m))________________")
 jalan("______________________((\033[1;33mI'm From \033[1;32mIndia\033[1;31m))______________________")
 print("")
-print ("\033[1;31m {0}  \033[1;32m exit                       \033[1;31m {1}  \033[1;32m Download All Pkg ")
+print ("\033[1;31m {R}  \033[1;32m Restart Tool               \033[1;31m {1}  \033[1;32m Download All Pkg ")
 print ("\033[1;31m {2}  \033[1;32m Download AdvPhishing       \033[1;31m {3}  \033[1;32m Download Ngrok ")
 print ("\033[1;31m {4}  \033[1;32m Download Termux-ADB        \033[1;31m {5}  \033[1;32m Download PhoneSploit ")    
 print ("\033[1;31m {6}  \033[1;32m Downloadّ Saycheese         \033[1;31m {7}  \033[1;32m Download Seeker ")
@@ -63,6 +63,8 @@ print ("\033[1;31m {16} \033[1;32m Download Cam-Hackers       \033[1;31m {17} \0
 print ("\033[1;31m {18} \033[1;32m Download Tool-X            \033[1;31m {19} \033[1;32m Download Metasploit ")
 print ("\033[1;31m {20} \033[1;32m Download Lazymux           \033[1;31m {21} \033[1;32m Download ManishLock ")
 print ("\033[1;31m {22} \033[1;32m Download TermuxMNS         \033[1;31m {23} \033[1;32m Download TermuxLock ")
+print("")
+print ("\033[1;31m {0}  \033[1;32m Exit MNSTools              \033[1;31m {99} \033[1;32m Update MNSTools ")
 print("")
 nmb = input("\033[1;32mChoose number : ")
 print("")
@@ -310,6 +312,15 @@ elif nmb=="23":
     os.system('mv TermuxLock $HOME ')
     os.system('cd && cd TermuxLock && chmod +x install.sh && bash install.sh ')
     jalan ("\033[1;31m  Download TermuxLock It's finished Thank you for using my tool               ")
+    os.system('python install.py ')
+
+#Download Update
+elif nmb=="99":
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/MNSTools ')
+    os.system('mv TermuxLock $HOME ')
+    os.system('cd && cd MNSTools && chmod +x install.py && python install.py ')
+    jalan ("\033[1;31m  Update MNSTools It's finished Thank you for using my tool               ")
     os.system('python install.py ')
 
 #Try ouvert my tool
