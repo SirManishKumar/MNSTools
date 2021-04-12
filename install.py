@@ -1,4 +1,10 @@
 #!/bin/bash
+apt update && upgrade -y
+apt install python -y
+pip install lolcat
+echo "============================================================" |lolcat
+               Starting To Download MNSTools Please Wait." |lolcat
+echo "============================================================" |lolcat
 import os,sys,time
 #sys1
 def jalan(z):
