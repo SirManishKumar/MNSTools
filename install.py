@@ -1,10 +1,4 @@
 #!/bin/bash
-    os.system('apt update && apt upgrade -y ')
-    os.system('apt install python -y ')
-    os.system('pip install lolcat ')
-echo "============================================================" |lolcat
-               Starting To Download MNSTools Please Wait." |lolcat
-echo "============================================================" |lolcat
 import os,sys,time
 #sys1
 def jalan(z):
@@ -50,7 +44,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(00000.02)
 
-#welcom
+#Welcome To MNSTools
 jalan ("\033[1;31m-_-_-_-_-_-_-_-_-_-_- \033[1;33mHello in my World\033[1;31m -_-_-_-_-_-_-_-_-_-_-_")
 jalan("________________((\033[1;33mThis̲ tool by SirManishKumar\033[1;31m))_______________")
 jalan("________________((\033[1;33mIt's All Tools My Favorite\033[1;31m))________________")
@@ -77,7 +71,10 @@ if nmb=="0":
     os.system('exit')
     os.system('clear')
 
-#Download All Pkg
+echo "============================================================" |lolcat
+               Starting To Download All Pkg Please Wait." |lolcat
+echo "============================================================" |lolcat
+
 elif nmb=="1":
     os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade -y ')
