@@ -71,10 +71,7 @@ if nmb=="0":
     os.system('exit')
     os.system('clear')
 
-jalan("============================================================")
-jalan("           Starting To Download All Pkg Please Wait.        ")
-jalan("============================================================")
-
+#Download All Pkg Please Wait.
 elif nmb=="1":
     os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade -y ')
