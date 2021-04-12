@@ -73,6 +73,7 @@ if nmb=="0":
 
 #Download All Pkg Please Wait.
 elif nmb=="1":
+    jalan("\033[1;31m  Download AdvPhishing It's finished Thank you for using my tool         ")
     os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade -y ')
     os.system('pkg update && pkg upgrade -y')
