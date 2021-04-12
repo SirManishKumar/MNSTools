@@ -53,6 +53,7 @@ if nmb=="0":
     os.system('clear')
 
 #Download All Pkg
+elif nmb=="1":
 #this logo
 logo = ("""\033[1;36m                              __
 \033[1;36m          ____  _            |  |        __  __ _   _  ____
@@ -66,7 +67,6 @@ logo = ("""\033[1;36m                              __
 \033[1;32m |_|  |_|\__,_|_| |_|_|___/_| |_|_|\_\__,_|_| |_| |_|\__,_|_|""")
 #my logo
 print(logo)
-elif nmb=="1":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m  Starting To Download All Pkg Please Wait.                        ")
     os.system('termux-setup-storage ')
