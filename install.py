@@ -42,7 +42,7 @@ def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(00000.02)
+        time.sleep(00000.06)
 
 #Welcome To MNSTools
 jalan ("\033[1;31m-_-_-_-_-_-_-_-_-_-_- \033[1;33mHello in my World\033[1;31m -_-_-_-_-_-_-_-_-_-_-_")
