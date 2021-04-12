@@ -71,9 +71,9 @@ if nmb=="0":
     os.system('exit')
     os.system('clear')
 
-echo "============================================================" |lolcat
-               Starting To Download All Pkg Please Wait." |lolcat
-echo "============================================================" |lolcat
+jalan("============================================================")
+jalan("           Starting To Download All Pkg Please Wait.        ")
+jalan("============================================================")
 
 elif nmb=="1":
     os.system('termux-setup-storage ')
