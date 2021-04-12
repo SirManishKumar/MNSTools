@@ -1,7 +1,7 @@
 #!/bin/bash
-apt update && upgrade -y
-apt install python -y
-pip install lolcat
+    os.system('apt update && apt upgrade -y ')
+    os.system('apt install python -y ')
+    os.system('pip install lolcat ')
 echo "============================================================" |lolcat
                Starting To Download MNSTools Please Wait." |lolcat
 echo "============================================================" |lolcat
