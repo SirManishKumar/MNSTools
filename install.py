@@ -39,23 +39,24 @@ print ("\033[1;31m {12} \033[1;32m Downloadّ EasY_HaCk         \033[1;31m {13} 
 print ("\033[1;31m {14} \033[1;32m Download Sayhello          \033[1;31m {15} \033[1;32m Downloadّ Lockphish ")
 print ("\033[1;31m {16} \033[1;32m Download Cam-Hackers       \033[1;31m {17} \033[1;32m Download Anon-SMS ")
 print ("\033[1;31m {18} \033[1;32m Download Tool-X            \033[1;31m {19} \033[1;32m Download Metasploit ")
-print ("\033[1;31m {20} \033[1;32m Download Lazymux           \033[1;31m {21} \033[1;32m Download ManishLock ")
-print ("\033[1;31m {22} \033[1;32m Download TermuxMNS         \033[1;31m {23} \033[1;32m Download TermuxLock ")
-print("")
+print ("\033[1;31m {20} \033[1;32m Download Lazymux           \033[1;31m {21} \033[1;32m Download MNSLock ")
+print ("\033[1;31m {22} \033[1;32m Download MNSTermux         \033[1;31m {23} \033[1;32m Download TermuxLock ")
+print ("\033[1;31m {24} \033[1;32m Download MNSNgrok          \033[1;31m {25} \033[1;32m Download AndroidHack ")
+pprint("")
 print ("\033[1;31m {0}  \033[1;32m Exit MNSTools              \033[1;31m {99} \033[1;32m Update MNSTools ")
 print("")
 nmb = input("\033[1;32mChoose number : ")
 print("")
 if nmb=="0":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  MNSTools Going To Exit Please Wait.                        ")
+    jalan("\033[1;33m MNSTools Going To Exit Please Wait.                        ")
     os.system('exit')
     os.system('clear')
 
 #Download All Pkg
 elif nmb=="1":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download All Pkg Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download All Pkg Please Wait.                        ")
     os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade -y ')
     os.system('pkg update && pkg upgrade -y')
@@ -89,264 +90,283 @@ elif nmb=="1":
     os.system('figlet sniper-gadgets ')
     time.sleep(000.5)
     os.system('clear ')
-    jalan ("\033[1;31m  Download All Pkg It's finished Thank you for using my tool  ")
+    jalan ("\033[1;31m Download All Pkg It's finished Thank you for using MNSTools          ")
     os.system('python install.py ')
 
 #Download AdvPhishing
 elif nmb=="2":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download AdvPhishing Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download AdvPhishing Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('pkg install git ')
     os.system('git clone https://github.com/Ignitetch/AdvPhishing  ')
     os.system('mv AdvPhishing $HOME ')
     os.system('cd && cd AdvPhishing && chmod +x * && bash Android-Setup.sh ')
-    jalan("\033[1;31m  Download AdvPhishing It's finished Thank you for using my tool         ")
+    jalan("\033[1;31m Download AdvPhishing It's finished Thank you for using MNSTools         ")
     os.system('python install.py ')
 
 #Download Ngrok
 elif nmb=="3":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Ngrok Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Ngrok Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('pkg install wget ')
     os.system('wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip ')
     os.system('mv ngrok-stable-linux-arm.zip $HOME ')
     os.system('cd && unzip ngrok-stable-linux-arm.zip && chmod 777 ngrok && rm -rf ngrok-stable-linux-arm.zip ')
-    jalan("\033[1;31m   Download Ngrok It's finished Thank you for using my tool         ")
+    jalan("\033[1;31m Download Ngrok It's finished Thank you for using MNSTools         ")
     os.system('python install.py ')
 
 #Download Termux-ADB
 elif nmb=="4":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Termux-ADB Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Termux-ADB Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('pkg install wget ')
     os.system('git clone https://github.com/MasterDevX/Termux-ADB ')
     os.system('mv Termux-ADB $HOME ')
     os.system('cd && cd Termux-ADB && chmod +x InstallTools.sh && bash InstallTools.sh ')
-    jalan ("\033[1;31m   Download Termux-ADB It's finished Thank you for using my tool           ")
+    jalan ("\033[1;31m Download Termux-ADB It's finished Thank you for using MNSTools           ")
     os.system('python install.py ')
 
 #Download PhoneSploit
 elif nmb=="5":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download PhoneSploit Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download PhoneSploit Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('pkg install git ')
     os.system('git clone https://github.com/01010000-kumar/PhoneSploit ')
     os.system('mv PhoneSploit $HOME ')
     os.system('cd && cd PhoneSploit && chmod +x phonesploit.py && python phonesploit.py ')
-    jalan ("\033[1;31m  Download PhoneSploit It's finished Thank you for using my tool           ")
+    jalan ("\033[1;31m Download PhoneSploit It's finished Thank you for using MNSTools           ")
     os.system('python install.py ')
 
 #Download Saycheese
 elif nmb=="6":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Saycheese Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Saycheese Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Technicalheadquarter/saycheese ')
     os.system('mv saycheese $HOME ')
     os.system('cd && cd saycheese && chmod +x saycheese.sh && ./saycheese.sh ')
-    jalan ("\033[1;31m  Download Saycheese It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Saycheese It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Seeker
 elif nmb=="7":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Seeker Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Seeker Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/thewhiteh4t/seeker ')
     os.system('mv seeker $HOME ')
     os.system('cd && cd seeker && pip install requests && chmod +x seeker.py && python seeker.py -t manual ')
-    jalan ("\033[1;31m  Download Seeker It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Seeker It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Grabcam
 elif nmb=="8":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Grabcam Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Grabcam Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('pip install lolcat ')
     os.system('git clone https://github.com/noob-hackers/grabcam ')
     os.system('mv grabcam $HOME ')
     os.system('cd && cd grabcam && chmod +x grabcam.sh && bash grabcam.sh ')
-    jalan ("\033[1;31m  Download Grabcam It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Grabcam It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Hacklock
 elif nmb=="9":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Hacklock Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Hacklock Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('pip install lolcat ')
     os.system('git clone https://github.com/noob-hackers/hacklock ')
     os.system('mv hacklock $HOME ')
     os.system('cd && cd hacklock && chmod +x * && bash setup ')
-    jalan ("\033[1;31m  Download Hacklock It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Hacklock It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Zphisher
 elif nmb=="10":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Zphisher Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Zphisher Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone git://github.com/htr-tech/zphisher.git ')
     os.system('mv zphisher $HOME ')
     os.system('cd && cd zphisher && chmod +x saycheese.sh && bash zphisher.sh ')
-    jalan ("\033[1;31m  Download Zphisher It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Zphisher It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download FotoSploit
 elif nmb=="11":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download FotoSploit Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download FotoSploit Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Cesar-Hack-Gray/FotoSploit ')
     os.system('mv FotoSploit $HOME ')
     os.system('cd && cd FotoSploit && chmod +x * && bash install.sh && ./FotoSploit ')
-    jalan ("\033[1;31m  Download FotoSploit It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download FotoSploit It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download EasY_HaCk
 elif nmb=="12":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download EasY-HaCk Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download EasY-HaCk Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/sabri-zaki/EasY_HaCk ')
     os.system('mv EasY_HaCk $HOME ')
     os.system('cd && cd EasY_HaCk && chmod +x install.sh && ./install.sh ')
-    jalan ("\033[1;31m  Download EasY_HaCk It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download EasY_HaCk It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download T-Phish
 elif nmb=="13":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download T-Phish Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download T-Phish Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Stephin-Franklin/T-Phish ')
     os.system('mv T-Phish $HOME ')
     os.system('cd && cd T-Phish & unzip T-Phish.zip && cd T-Phish && chmod +x * && ./start.sh && ./phish.sh ')
-    jalan ("\033[1;31m  Download T-Phish It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download T-Phish It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Sayhello
 elif nmb=="14":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Sayhello Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Sayhello Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/deepakverma91123/sayhellodeepak.git ')
     os.system('mv sayhellodeepak $HOME ')
     os.system('cd && cd sayhellodeepak && chmod +x sayhello.sh && bash sayhello.sh ')
-    jalan ("\033[1;31m  Download Sayhello It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Sayhello It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Lockphish
 elif nmb=="15":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Lockphish Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Lockphish Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/kali-linux-tutorial/lockphish ')
     os.system('mv lockphish $HOME ')
     os.system('cd && cd lockphish && chmod +x lockphish.sh && bash lockphish.sh ')
-    jalan ("\033[1;31m  Download Lockphish It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Lockphish It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Cam-Hackers
 elif nmb=="16":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Cam-Hackers Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Cam-Hackers Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers ')
     os.system('mv Cam-Hackers $HOME ')
     os.system('cd && cd Cam-Hackers && chmod +x cam-hackers.py && python3 cam-hackers.py ')
-    jalan ("\033[1;31m  Download Cam-Hackers It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Cam-Hackers It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Anon-SMS
 elif nmb=="17":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Anon-SMS Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Anon-SMS Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/HACK3RY2J/Anon-SMS.git ')
     os.system('mv Anon-SMS $HOME ')
     os.system('cd && cd Anon-SMS && chmod +x * && bash Run.sh ')
-    jalan ("\033[1;31m  Download Anon-SMS It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Anon-SMS It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Tool-X
 elif nmb=="18":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Tool-X Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Tool-X Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Rajkumrdusad/Tool-X.git ')
     os.system('mv Tool-X $HOME ')
     os.system('cd && cd Tool-X && chmod +x install.aex && ./install.aex ')
-    jalan ("\033[1;31m  Download Tool-X It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Tool-X It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Metasploit
 elif nmb=="19":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Metasploit Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Metasploit Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone http://github.com/rooted-cyber/Metasploit-Installation ')
     os.system('mv Metasploit-Installation $HOME ')
     os.system('cd && cd Metasploit-Installation && chmod +x setup.sh && bash setup.sh && bash metasploit.sh ')
-    jalan ("\033[1;31m  Download Metasploit-Installation It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Metasploit It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Lazymux
 elif nmb=="20":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download Lazymux Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Lazymux Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Gameye98/Lazymux ')
     os.system('mv Lazymux $HOME ')
     os.system('cd && cd Lazymux && chmod +x lazymux.py && python lazymux.py ')
-    jalan ("\033[1;31m  Download Lazymux It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download Lazymux It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
-#Download ManishLock
+#Download MNSLock
 elif nmb=="21":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download ManishLock Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download MNSLock Please Wait.                        ")
     os.system('apt update && apt upgrade')
-    os.system('git clone https://github.com/SirManishKumar/ManishLock ')
-    os.system('mv ManishLock $HOME ')
-    os.system('cd && cd ManishLock && chmod +x install.sh && bash install.sh ')
-    jalan ("\033[1;31m  Download ManishLock It's finished Thank you for using my tool               ")
+    os.system('git clone https://github.com/SirManishKumar/MNSLock ')
+    os.system('mv MNSLock $HOME ')
+    os.system('cd && cd MNSLock && chmod +x install.sh && bash install.sh ')
+    jalan ("\033[1;31m Download MNSLock It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
-#Download TermuxMNS
+#Download MNSTermux
 elif nmb=="22":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download TermuxMNS Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download MNSTermux Please Wait.                        ")
     os.system('apt update && apt upgrade')
-    os.system('git clone https://github.com/SirManishKumar/TermuxMNS ')
-    os.system('mv TermuxMNS $HOME ')
-    os.system('cd && cd TermuxMNS && chmod +x setup.sh && bash setup.sh ')
-    jalan ("\033[1;31m  Download TermuxMNS It's finished Thank you for using my tool               ")
+    os.system('git clone https://github.com/SirManishKumar/MNSTermux ')
+    os.system('mv MNSTermux $HOME ')
+    os.system('cd && cd MNSTermux && chmod +x setup.sh && bash setup.sh ')
+    jalan ("\033[1;31m Download MNSTermux It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download TermuxLock
 elif nmb=="23":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download TermuxLock Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download TermuxLock Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/SirManishKumar/TermuxLock ')
     os.system('mv TermuxLock $HOME ')
     os.system('cd && cd TermuxLock && chmod +x install.sh && bash install.sh ')
-    jalan ("\033[1;31m  Download TermuxLock It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Download TermuxLock It's finished Thank you for using MNSTools               ")
+    os.system('python install.py ')
+
+#Download MNSNgrok
+elif nmb=="24":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download MNSNgrok Please Wait.                        ")
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/MNSNgrok ')
+    os.system('mv MNSNgrok $HOME ')
+    os.system('cd && cd MNSNgrok && chmod +x setup.sh && bash setup.sh ')
+    jalan ("\033[1;31m Download MNSNgrok It's finished Thank you for using MNSTools               ")
+    os.system('python install.py ')
+
+#Download AndroidHack
+elif nmb=="25":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download AndroidHack Please Wait.                        ")
+    os.system('apt update && apt upgrade')
+    jalan ("\033[1;31m AndroidHack Not Supported Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Update MNSTools
 elif nmb=="99":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m  Starting To Download MNSTools Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download MNSTools Please Wait.                        ")
     os.system('apt update && apt upgrade')
     os.system('pkg install python -y ')
-    jalan ("\033[1;31m  Update MNSTools It's finished Thank you for using my tool               ")
+    jalan ("\033[1;31m Updated MNSTools It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Try ouvert my tool
