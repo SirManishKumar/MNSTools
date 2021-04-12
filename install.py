@@ -53,6 +53,19 @@ if nmb=="0":
     os.system('clear')
 
 #Download All Pkg
+#this logo
+logo = ("""\033[1;36m                              __
+\033[1;36m          ____  _            |  |        __  __ _   _  ____
+\033[1;36m         / ___|(_)_ __    ___|  |___    |  \/  | \ | |/ ___|
+\033[1;32m         \___ \| | `__|   \__    __/    | |\/| |  \| |\___ \\
+\033[1;32m          ___) | | |         \  /       | |  | | |\  | ___) |
+\033[1;31m  __  __ |____/|_|_| _     _  \/ _  __  |_|  |_|_| \_||____/
+\033[1;31m |  \/  | __ _ _ __ (_)___| |__ | |/ /   _ _ __ ___   __ _ _ _
+\033[1;37m | |\/| |/ _` | `_ \| / __| `_ \| ` / | | | `_ ` _ \ / _` | `_|
+\033[1;37m | |  | | (_| | | | | \__ \ | | | . \ |_| | | | | | | (_| | |
+\033[1;32m |_|  |_|\__,_|_| |_|_|___/_| |_|_|\_\__,_|_| |_| |_|\__,_|_|""")
+#my logo
+print(logo)
 elif nmb=="1":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m  Starting To Download All Pkg Please Wait.                        ")
@@ -113,6 +126,8 @@ elif nmb=="3":
     os.system('wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip ')
     os.system('mv ngrok-stable-linux-arm.zip $HOME ')
     os.system('cd && unzip ngrok-stable-linux-arm.zip && chmod 777 ngrok && rm -rf ngrok-stable-linux-arm.zip ')
+    read -p $'\e[1;91m[\e[0m\e[1;77m+\e[0m\e[1;91m]\e[0m\e[1;96m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
+    $token
     jalan("\033[1;31m   Download Ngrok It's finished Thank you for using my tool         ")
     os.system('python install.py ')
 
