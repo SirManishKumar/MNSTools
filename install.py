@@ -113,8 +113,6 @@ elif nmb=="3":
     os.system('wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip ')
     os.system('mv ngrok-stable-linux-arm.zip $HOME ')
     os.system('cd && unzip ngrok-stable-linux-arm.zip && chmod 777 ngrok && rm -rf ngrok-stable-linux-arm.zip ')
-    read -p $'\e[1;91m[\e[0m\e[1;77m+\e[0m\e[1;91m]\e[0m\e[1;96m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
-    $token
     jalan("\033[1;31m   Download Ngrok It's finished Thank you for using my tool         ")
     os.system('python install.py ')
 
