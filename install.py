@@ -28,10 +28,10 @@ logo = ("""\033[1;32m───────────────────�
 print(logo)
 jalan("################################################################")
 print("")
-print("             \033[1;31m{\033[1;33mMy youtube channel: SirManishKumar\033[1;31m}")
-print("            {\033[1;33mMy twitter account: SirManishKumar\033[1;31m}")
-print("             {\033[1;33mMy github account: SirManishKumar\033[1;31m}")
-print("            {\033[1;33mMy facebook account: SirManishKumar\033[1;31m}")
+print("             \033[1;31m{\033[1;33m\033[1;31m}")
+print("            {\033[1;33m\033[1;31m}")
+print("             {\033[1;33m\033[1;31m}")
+print("            {\033[1;33m\033[1;31m}")
 def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
@@ -45,10 +45,10 @@ def jalan(z):
         time.sleep(00000.06)
 
 #Welcome To MNSTools
-jalan ("\033[1;31m-_-_-_-_-_-_-_-_-_-_- \033[1;33mHello in my World\033[1;31m -_-_-_-_-_-_-_-_-_-_-_")
-jalan("________________((\033[1;33mThis̲ tool by SirManishKumar\033[1;31m))_______________")
-jalan("________________((\033[1;33mIt's All Tools My Favorite\033[1;31m))________________")
-jalan("______________________((\033[1;33mI'm From \033[1;32mIndia\033[1;31m))______________________")
+jalan ("\033[1;31m-_-_-_-_-_-_- \033[1;33mMy youtube channel: SirManishKumar\033[1;31m -_-_-_-_-_-_-")
+jalan("________________((\033[1;33mMy twitter account: SirManishKumar\033[1;31m))_______________")
+jalan("________________((\033[1;33mMy github account: SirManishKumar\033[1;31m))________________")
+jalan("_______________((\033[1;33mMy facebook account: SirManishKumar\033[1;31m))_______________")
 print("")
 print ("\033[1;31m {R}  \033[1;32m Restart Tool               \033[1;31m {1}  \033[1;32m Download All Pkg ")
 print ("\033[1;31m {2}  \033[1;32m Download AdvPhishing       \033[1;31m {3}  \033[1;32m Download Ngrok ")
