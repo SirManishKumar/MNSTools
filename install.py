@@ -68,12 +68,12 @@ print("")
 nmb = input("\033[1;32mChoose number : ")
 print("")
 if nmb=="0":
-    jalan("\033[1;33m  Contacting To Server Please Wait...........................[✔] ")
+    jalan("\033[1;33m  Contacting To Server Please Wait...........................💯")
     jalan("\033[1;33m  MNSTools Going To Exit Please Wait.                        ")
     os.system('exit')
     os.system('clear')
 
-#Download All Pkg Please Wait.
+#Download All Pkg
 elif nmb=="1":
     jalan("\033[1;33m  Starting To Download All Pkg Please Wait.                        ")
     os.system('termux-setup-storage ')
