@@ -63,6 +63,7 @@ elif nmb=="1":
     os.system('pkg install git ')
     os.system('pkg install python ')
     os.system('pip3 install requests ')
+    os.system('python3 -m pip install --upgrade pip ')
     os.system('pkg install python2 ')
     os.system('pip2 install requests ')
     os.system('pip install --upgrade pip ')
