@@ -42,7 +42,7 @@ print ("\033[1;31m {18} \033[1;32m Download Tool-X            \033[1;31m {19} \0
 print ("\033[1;31m {20} \033[1;32m Download Lazymux           \033[1;31m {21} \033[1;32m Download MNSLock ")
 print ("\033[1;31m {22} \033[1;32m Download MNSTermux         \033[1;31m {23} \033[1;32m Download TermuxLock ")
 print ("\033[1;31m {24} \033[1;32m Download MNSNgrok          \033[1;31m {25} \033[1;32m Download AndroidHack ")
-pprint("")
+print("")
 print ("\033[1;31m {0}  \033[1;32m Exit MNSTools              \033[1;31m {99} \033[1;32m Update MNSTools ")
 print("")
 nmb = input("\033[1;32mChoose number : ")
