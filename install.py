@@ -29,21 +29,21 @@ jalan("\033[1;32m |              \033[1;33mMy github account: SirManishKumar\033
 jalan("\033[1;32m |            \033[1;33mMy facebook account: SirManishKumar\033[1;32m             | ")
 jalan("\033[1;32m ╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯ ")
 print("")
-print ("\033[1;31m {R}  \033[1;32m Restart Tool               \033[1;31m {1}  \033[1;32m Download All Pkg ")
-print ("\033[1;31m {2}  \033[1;32m Download AdvPhishing       \033[1;31m {3}  \033[1;32m Download Ngrok ")
-print ("\033[1;31m {4}  \033[1;32m Download Termux-ADB        \033[1;31m {5}  \033[1;32m Download PhoneSploit ")    
-print ("\033[1;31m {6}  \033[1;32m Downloadّ Saycheese         \033[1;31m {7}  \033[1;32m Download Seeker ")
-print ("\033[1;31m {8}  \033[1;32m Download Grabcam           \033[1;31m {9}  \033[1;32m Download Hacklock ")
-print ("\033[1;31m {10} \033[1;32m Download Zphisher          \033[1;31m {11} \033[1;32m Download FotoSploit ")
-print ("\033[1;31m {12} \033[1;32m Downloadّ EasY_HaCk         \033[1;31m {13} \033[1;32m Download T-Phish ")
-print ("\033[1;31m {14} \033[1;32m Download Sayhello          \033[1;31m {15} \033[1;32m Downloadّ Lockphish ")
-print ("\033[1;31m {16} \033[1;32m Download Cam-Hackers       \033[1;31m {17} \033[1;32m Download Anon-SMS ")
-print ("\033[1;31m {18} \033[1;32m Download Tool-X            \033[1;31m {19} \033[1;32m Download Metasploit ")
-print ("\033[1;31m {20} \033[1;32m Download Lazymux           \033[1;31m {21} \033[1;32m Download MNSLock ")
-print ("\033[1;31m {22} \033[1;32m Download MNSTermux         \033[1;31m {23} \033[1;32m Download TermuxLock ")
-print ("\033[1;31m {24} \033[1;32m Download MNSNgrok          \033[1;31m {25} \033[1;32m Download AndroidHack ")
+print ("\033[1;31m {1}  \033[1;32m Download All Pkg           \033[1;31m {2}  \033[1;32m Download AdvPhishing ")
+print ("\033[1;31m {3}  \033[1;32m Download Ngrok             \033[1;31m {4}  \033[1;32m Download Termux-ADB ")
+print ("\033[1;31m {5}  \033[1;32m Download PhoneSploit       \033[1;31m {6}  \033[1;32m Download Saycheese ")    
+print ("\033[1;31m {7}  \033[1;32m Downloadّ Seeker            \033[1;31m {8}  \033[1;32m Download Grabcam ")
+print ("\033[1;31m {9}  \033[1;32m Download Hacklock          \033[1;31m {10} \033[1;32m Download Zphisher ")
+print ("\033[1;31m {11} \033[1;32m Download FotoSploit        \033[1;31m {12} \033[1;32m Download EasY_HaCk ")
+print ("\033[1;31m {13} \033[1;32m Downloadّ T-Phish           \033[1;31m {14} \033[1;32m Download Sayhello ")
+print ("\033[1;31m {15} \033[1;32m Download Lockphish         \033[1;31m {16} \033[1;32m Downloadّ Cam-Hackers ")
+print ("\033[1;31m {17} \033[1;32m Download Anon-SMS          \033[1;31m {18} \033[1;32m Download Tool-X ")
+print ("\033[1;31m {19} \033[1;32m Download Metasploit        \033[1;31m {20} \033[1;32m Download Lazymux ")
+print ("\033[1;31m {21} \033[1;32m Download MNSLock           \033[1;31m {22} \033[1;32m Download TermuxLock ")
+print ("\033[1;31m {23} \033[1;32m Download MNSTermux         \033[1;31m {24} \033[1;32m Download  ")
+print ("\033[1;31m {25} \033[1;32m Download MNSNgrok          \033[1;31m {26} \033[1;32m Download  ")
 print("")
-print ("\033[1;31m {0}  \033[1;32m Exit MNSTools              \033[1;31m {99} \033[1;32m Update MNSTools ")
+print ("\033[1;31m {0} \033[1;32m Exit            \033[1;31m {99} \033[1;32m Update            \033[1;31m {r} \033[1;32m Restart ")
 print("")
 nmb = input("\033[1;32mChoose number : ")
 print("")
@@ -321,20 +321,8 @@ elif nmb=="21":
     jalan ("\033[1;31m Download MNSLock It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
-#Download MNSTermux
-elif nmb=="22":
-    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m Starting To Download MNSTermux Please Wait.                        ")
-    os.system('apt update && apt upgrade')
-    os.system('git clone https://github.com/SirManishKumar/MNSTermux ')
-    os.system('mv MNSTermux $HOME ')
-    os.system('cd && cd MNSTermux && chmod +x setup.sh && bash setup.sh ')
-    os.system('cd && rm -rf MNSTermux ')
-    jalan ("\033[1;31m Download MNSTermux It's finished Thank you for using MNSTools               ")
-    os.system('python install.py ')
-
 #Download TermuxLock
-elif nmb=="23":
+elif nmb=="22":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download TermuxLock Please Wait.                        ")
     os.system('apt update && apt upgrade')
@@ -345,8 +333,28 @@ elif nmb=="23":
     jalan ("\033[1;31m Download TermuxLock It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
-#Download MNSNgrok
+#Download MNSTermux
+elif nmb=="23":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download MNSTermux Please Wait.                        ")
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/MNSTermux ')
+    os.system('mv MNSTermux $HOME ')
+    os.system('cd && cd MNSTermux && chmod +x setup.sh && bash setup.sh ')
+    os.system('cd && rm -rf MNSTermux ')
+    jalan ("\033[1;31m Download MNSTermux It's finished Thank you for using MNSTools               ")
+    os.system('python install.py ')
+
+#Download 
 elif nmb=="24":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download Please Wait.                        ")
+    os.system('apt update && apt upgrade')
+    jalan ("\033[1;31m Download Not Supported Thank you for using MNSTools               ")
+    os.system('python install.py ')
+
+#Download MNSNgrok
+elif nmb=="25":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download MNSNgrok Please Wait.                        ")
     os.system('apt update && apt upgrade')
@@ -357,12 +365,12 @@ elif nmb=="24":
     jalan ("\033[1;31m Download MNSNgrok It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
-#Download AndroidHack
-elif nmb=="25":
+#Download 
+elif nmb=="26":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m Starting To Download AndroidHack Please Wait.                        ")
+    jalan("\033[1;33m Starting To Download Please Wait.                        ")
     os.system('apt update && apt upgrade')
-    jalan ("\033[1;31m AndroidHack Not Supported Thank you for using MNSTools               ")
+    jalan ("\033[1;31m Download Not Supported Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download Update MNSTools
