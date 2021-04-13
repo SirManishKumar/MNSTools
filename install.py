@@ -102,7 +102,7 @@ elif nmb=="2":
     os.system('pkg install git ')
     os.system('git clone https://github.com/Ignitetch/AdvPhishing  ')
     os.system('mv AdvPhishing $HOME ')
-    os.system('cd && cd AdvPhishing && chmod +x * && bash Android-Setup.sh ')
+    os.system('cd && cd AdvPhishing && chmod +x * && bash Android-Setup.sh && bash AdvPhishing.sh')
     jalan("\033[1;31m Download AdvPhishing It's finished Thank you for using MNSTools         ")
     os.system('python install.py ')
 
