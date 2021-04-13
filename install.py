@@ -317,6 +317,7 @@ elif nmb=="21":
     os.system('git clone https://github.com/SirManishKumar/MNSLock ')
     os.system('mv MNSLock $HOME ')
     os.system('cd && cd MNSLock && chmod +x install.sh && bash install.sh ')
+    os.system('cd && rm -rf MNSLock ')
     jalan ("\033[1;31m Download MNSLock It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
@@ -328,6 +329,7 @@ elif nmb=="22":
     os.system('git clone https://github.com/SirManishKumar/MNSTermux ')
     os.system('mv MNSTermux $HOME ')
     os.system('cd && cd MNSTermux && chmod +x setup.sh && bash setup.sh ')
+    os.system('cd && rm -rf MNSTermux ')
     jalan ("\033[1;31m Download MNSTermux It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
@@ -339,6 +341,7 @@ elif nmb=="23":
     os.system('git clone https://github.com/SirManishKumar/TermuxLock ')
     os.system('mv TermuxLock $HOME ')
     os.system('cd && cd TermuxLock && chmod +x install.sh && bash install.sh ')
+    os.system('cd && rm -rf TermuxLock ')
     jalan ("\033[1;31m Download TermuxLock It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
@@ -350,6 +353,7 @@ elif nmb=="24":
     os.system('git clone https://github.com/SirManishKumar/MNSNgrok ')
     os.system('mv MNSNgrok $HOME ')
     os.system('cd && cd MNSNgrok && chmod +x setup.sh && bash setup.sh ')
+    os.system('cd && rm -rf MNSNgrok ')
     jalan ("\033[1;31m Download MNSNgrok It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
