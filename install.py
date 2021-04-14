@@ -372,6 +372,17 @@ elif nmb=="26":
     jalan ("\033[1;31m Download AndroidHack Not Supported Thank you for using MNSTools               ")
     os.system('python install.py ')
 
+#Download 
+elif nmb=="27":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download PhoneInfoga Please Wait.                    ")
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/sundowndev/PhoneInfoga ')
+    os.system('mv PhoneInfoga $HOME ')
+    os.system('cd && cd PhoneInfoga && chmod +x install && ./install ')
+    jalan ("\033[1;31m Download  It's finished Thank you for using MNSTools               ")
+    os.system('python install.py ')
+
 #Download Update MNSTools
 elif nmb=="99":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
