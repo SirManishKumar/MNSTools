@@ -41,7 +41,7 @@ print ("\033[1;31m [25] \033[1;32m MNSNgrok       \033[1;31m [26] \033[1;32m And
 print("")
 print ("\033[1;31m [0] \033[1;32m Exit            \033[1;31m [99] \033[1;32m Update            \033[1;31m [r] \033[1;32m Restart ")
 print("")
-nmb = input("\033[1;32mChoose number : ")
+nmb = input(" \033[1;32mChoose number \033[1;31m: ")
 print("")
 if nmb=="0":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
