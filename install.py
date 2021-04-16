@@ -77,6 +77,7 @@ elif nmb=="1":
     os.system('pkg install openssl-tool ')
     os.system('apt update && apt upgrade -y ')
     os.system('pkg install cmatrix ')
+    os.system('pkg install fish ')
     os.system('pkg install openssh ')
     os.system('pip install lolcat ')
     os.system('pip install colorama ')
