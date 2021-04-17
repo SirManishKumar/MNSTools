@@ -39,15 +39,56 @@ print ("\033[1;31m [19] \033[1;32m Metasploit     \033[1;31m [20] \033[1;32m Laz
 print ("\033[1;31m [22] \033[1;32m TermuxLock     \033[1;31m [23] \033[1;32m MNSTermux        \033[1;31m [24] \033[1;32m IP Tracer ")
 print ("\033[1;31m [25] \033[1;32m MNSNgrok       \033[1;31m [26] \033[1;32m AndroidHack ")
 print("")
-print ("\033[1;31m [0] \033[1;32m Exit            \033[1;31m [99] \033[1;32m Update            \033[1;31m [r] \033[1;32m Restart ")
+print ("\033[1;31m [0] \033[1;32m Exit     \033[1;31m [99] \033[1;32m Update     \033[1;31m [r] \033[1;32m Restart   \033[1;31m [g] \033[1;32m Github ")
+print ("\033[1;31m [y] \033[1;32m Youtube   \033[1;31m [f] \033[1;32m Facebook   \033[1;31m [t] \033[1;32m Twitter   \033[1;31m [w] \033[1;32m WhatsApp ")
 print("")
-nmb = input(" \033[1;32mChoose number \033[1;31m: ")
+nmb = input(" \033[1;32mChoose Number \033[1;31m: ")
 print("")
 if nmb=="0":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m MNSTools Going To Exit Please Wait.                            ")
     os.system('exit')
     os.system('clear')
+
+#Download WhatsApp
+elif nmb=="w":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Connecting WhatsApp Please Wait.                          ")
+    os.system('xdg-open https://wa.me/+919554988808?text=*From%20MNSTools-*%20I%20Have%20To%20Ask%20For%20 ')
+    jalan("\033[1;31m It's finished Thank you for using MNSTools                     ")
+    os.system('python install.py ')
+
+#Download Facebook
+elif nmb=="f":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Open Facebook Please Wait.                          ")
+    os.system('xdg-open https://facebook.com/sirmanishkumar ')
+    jalan("\033[1;31m It's finished Thank you for using MNSTools                     ")
+    os.system('python install.py ')
+
+#Download Youtube
+elif nmb=="y":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Open Youtube Please Wait.                          ")
+    os.system('xdg-open https://youtube.com/mnspandit ')
+    jalan("\033[1;31m It's finished Thank you for using MNSTools                     ")
+    os.system('python install.py ')
+
+#Download Twitter
+elif nmb=="t":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Open Twitter Please Wait.                          ")
+    os.system('xdg-open https://twitter.com/sirmanishkumar ')
+    jalan("\033[1;31m It's finished Thank you for using MNSTools                     ")
+    os.system('python install.py ')
+
+#Download Github
+elif nmb=="g":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Open Github Please Wait.                          ")
+    os.system('xdg-open https://github.com/SirManishKumar ')
+    jalan("\033[1;31m It's finished Thank you for using MNSTools                     ")
+    os.system('python install.py ')
 
 #Download All Pkg
 elif nmb=="1":
