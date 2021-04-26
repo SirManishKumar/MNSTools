@@ -36,7 +36,7 @@ print ("\033[1;31m [4]  \033[1;32m Termux-ADB     \033[1;31m [13] \033[1;32m T-P
 print ("\033[1;31m [5]  \033[1;32m PhoneSploit    \033[1;31m [14] \033[1;32m Sayhello       \033[1;31m [23] \033[1;32m MNSTermux ")
 print ("\033[1;31m [6]  \033[1;32m Saycheese      \033[1;31m [15] \033[1;32m Lockphish      \033[1;31m [24] \033[1;32m IP Tracer ")
 print ("\033[1;31m [7]  \033[1;32m Seeker         \033[1;31m [16] \033[1;32m Cam-Hackers    \033[1;31m [25] \033[1;32m MNSNgrok ")
-print ("\033[1;31m [8]  \033[1;32m Grabcam        \033[1;31m [17] \033[1;32m Anon-SMS       \033[1;31m [26] \033[1;32m AndroidHack ")
+print ("\033[1;31m [8]  \033[1;32m Grabcam        \033[1;31m [17] \033[1;32m Anon-SMS       \033[1;31m [26] \033[1;32m MNSUbuntu ")
 print ("\033[1;31m [9]  \033[1;32m Hacklock       \033[1;31m [18] \033[1;32m Tool-X         \033[1;31m [27] \033[1;32m AndroidTrack ")
 print("")
 print ("\033[1;31m [0] \033[1;32m Exit     \033[1;31m [99] \033[1;32m Update     \033[1;31m [r] \033[1;32m Restart   \033[1;31m [g] \033[1;32m Github ")
@@ -406,12 +406,17 @@ elif nmb=="25":
     jalan ("\033[1;31m Download MNSNgrok It's finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
-#Download AndroidHack
+#Download MNSUbuntu
 elif nmb=="26":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m Starting To Download AndroidHack Please Wait.                  ")
+    jalan("\033[1;33m Starting To Download MNSUbuntu Please Wait.                  ")
     os.system('apt update && apt upgrade')
-    jalan ("\033[1;31m Download AndroidHack Not Supported Thank you for using MNSTools               ")
+    os.system('git clone https://github.com/SirManishKumar/MNSUbuntu ')
+    os.system('mv MNSUbuntu $HOME ')
+    os.system('cd && cd MNSUbuntu && chmod +x ubuntu.sh && ./ubuntu.sh && ./startubuntu.sh ')
+    os.system('exit ')
+    jalan ("\033[1;31m....................Start Ubuntu Type \033[1;34m./startubuntu.sh\033[1;31m.......................")
+    jalan ("\033[1;31m Download MNSUbuntu It's Finished Thank you for using MNSTools               ")
     os.system('python install.py ')
 
 #Download 
