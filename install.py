@@ -136,6 +136,7 @@ elif nmb=="1":
 elif nmb=="2":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download AdvPhishing Please Wait.                  ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('pkg install git ')
     os.system('git clone https://github.com/Ignitetch/AdvPhishing  ')
@@ -148,6 +149,7 @@ elif nmb=="2":
 elif nmb=="3":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Ngrok Please Wait.                        ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('pkg install wget ')
     os.system('wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip ')
@@ -160,6 +162,7 @@ elif nmb=="3":
 elif nmb=="4":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Termux-ADB Please Wait.                   ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('pkg install wget ')
     os.system('git clone https://github.com/MasterDevX/Termux-ADB ')
@@ -172,6 +175,7 @@ elif nmb=="4":
 elif nmb=="5":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download PhoneSploit Please Wait.                  ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('pkg install git ')
     os.system('git clone https://github.com/01010000-kumar/PhoneSploit ')
@@ -184,6 +188,7 @@ elif nmb=="5":
 elif nmb=="6":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Saycheese Please Wait.                    ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Technicalheadquarter/saycheese ')
     os.system('mv saycheese $HOME ')
@@ -195,6 +200,7 @@ elif nmb=="6":
 elif nmb=="7":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Seeker Please Wait.                       ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/thewhiteh4t/seeker ')
     os.system('mv seeker $HOME ')
@@ -206,6 +212,7 @@ elif nmb=="7":
 elif nmb=="8":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Grabcam Please Wait.                      ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('pip install lolcat ')
     os.system('git clone https://github.com/noob-hackers/grabcam ')
@@ -218,6 +225,7 @@ elif nmb=="8":
 elif nmb=="9":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Hacklock Please Wait.                     ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('pip install lolcat ')
     os.system('git clone https://github.com/noob-hackers/hacklock ')
@@ -230,6 +238,7 @@ elif nmb=="9":
 elif nmb=="10":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Zphisher Please Wait.                     ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone git://github.com/htr-tech/zphisher.git ')
     os.system('mv zphisher $HOME ')
@@ -241,6 +250,7 @@ elif nmb=="10":
 elif nmb=="11":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download FotoSploit Please Wait.                   ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Cesar-Hack-Gray/FotoSploit ')
     os.system('mv FotoSploit $HOME ')
@@ -252,6 +262,7 @@ elif nmb=="11":
 elif nmb=="12":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download EasY-HaCk Please Wait.                    ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/sabri-zaki/EasY_HaCk ')
     os.system('mv EasY_HaCk $HOME ')
@@ -263,6 +274,7 @@ elif nmb=="12":
 elif nmb=="13":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download T-Phish Please Wait.                      ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Stephin-Franklin/T-Phish ')
     os.system('mv T-Phish $HOME ')
@@ -274,6 +286,7 @@ elif nmb=="13":
 elif nmb=="14":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Sayhello Please Wait.                     ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/deepakverma91123/sayhellodeepak.git ')
     os.system('mv sayhellodeepak $HOME ')
@@ -285,6 +298,7 @@ elif nmb=="14":
 elif nmb=="15":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Lockphish Please Wait.                    ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/kali-linux-tutorial/lockphish ')
     os.system('mv lockphish $HOME ')
@@ -296,6 +310,7 @@ elif nmb=="15":
 elif nmb=="16":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Cam-Hackers Please Wait.                  ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers ')
     os.system('mv Cam-Hackers $HOME ')
@@ -307,6 +322,7 @@ elif nmb=="16":
 elif nmb=="17":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Anon-SMS Please Wait.                     ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/HACK3RY2J/Anon-SMS.git ')
     os.system('mv Anon-SMS $HOME ')
@@ -318,6 +334,7 @@ elif nmb=="17":
 elif nmb=="18":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Tool-X Please Wait.                       ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Rajkumrdusad/Tool-X.git ')
     os.system('mv Tool-X $HOME ')
@@ -329,6 +346,7 @@ elif nmb=="18":
 elif nmb=="19":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Metasploit Please Wait.                   ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone http://github.com/rooted-cyber/Metasploit-Installation ')
     os.system('mv Metasploit-Installation $HOME ')
@@ -340,6 +358,7 @@ elif nmb=="19":
 elif nmb=="20":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Lazymux Please Wait.                      ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/Gameye98/Lazymux ')
     os.system('mv Lazymux $HOME ')
@@ -351,6 +370,7 @@ elif nmb=="20":
 elif nmb=="21":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download MNSLock Please Wait.                      ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/SirManishKumar/MNSLock ')
     os.system('mv MNSLock $HOME ')
@@ -363,6 +383,7 @@ elif nmb=="21":
 elif nmb=="22":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download TermuxLock Please Wait.                   ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/SirManishKumar/TermuxLock ')
     os.system('mv TermuxLock $HOME ')
@@ -375,6 +396,7 @@ elif nmb=="22":
 elif nmb=="23":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download MNSTermux Please Wait.                    ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/SirManishKumar/MNSTermux ')
     os.system('mv MNSTermux $HOME ')
@@ -387,6 +409,7 @@ elif nmb=="23":
 elif nmb=="24":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download IP Tracer Please Wait.                    ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git ')
     os.system('mv IP-Tracer $HOME ')
@@ -398,6 +421,7 @@ elif nmb=="24":
 elif nmb=="25":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download MNSNgrok Please Wait.                     ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/SirManishKumar/MNSNgrok ')
     os.system('mv MNSNgrok $HOME ')
@@ -409,7 +433,8 @@ elif nmb=="25":
 #Download MNSUbuntu
 elif nmb=="26":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m Starting To Download MNSUbuntu Please Wait.                  ")
+    jalan("\033[1;33m Starting To Download MNSUbuntu Please Wait.                    ")
+    os.system('termux-setup-storage ')
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/SirManishKumar/MNSUbuntu ')
     os.system('mv MNSUbuntu $HOME ')
