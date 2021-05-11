@@ -126,7 +126,7 @@ elif nmb=="1":
     os.system('clear ')
     os.system('apt update && apt upgrade -y ')
     os.system('clear ')
-    os.system('figlet sniper-gadgets ')
+    os.system('figlet MNSTools ')
     time.sleep(000.5)
     os.system('clear ')
     jalan ("\033[1;31m Download All Pkg It's finished Thank you for using MNSTools          ")
