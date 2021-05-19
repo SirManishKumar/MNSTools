@@ -127,7 +127,7 @@ elif nmb=="1":
     os.system('apt update && apt upgrade -y ')
     os.system('clear ')
     os.system('figlet MNSTools ')
-    time.sleep(000.5)
+    time.sleep(000.9)
     os.system('clear ')
     jalan ("\033[1;31m Download All Pkg It's finished Thank you for using MNSTools          ")
     os.system('python install.py ')
@@ -143,6 +143,8 @@ elif nmb=="2":
     os.system('mv AdvPhishing $HOME ')
     os.system('cd && cd AdvPhishing && chmod +x * && bash Android-Setup.sh && bash AdvPhishing.sh')
     jalan("\033[1;31m Download AdvPhishing It's finished Thank you for using MNSTools         ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Ngrok
@@ -156,6 +158,8 @@ elif nmb=="3":
     os.system('mv ngrok-stable-linux-arm.zip $HOME ')
     os.system('cd && unzip ngrok-stable-linux-arm.zip && chmod 777 ngrok && rm -rf ngrok-stable-linux-arm.zip ')
     jalan("\033[1;31m Download Ngrok It's finished Thank you for using MNSTools         ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Termux-ADB
@@ -169,6 +173,8 @@ elif nmb=="4":
     os.system('mv Termux-ADB $HOME ')
     os.system('cd && cd Termux-ADB && chmod +x InstallTools.sh && bash InstallTools.sh ')
     jalan ("\033[1;31m Download Termux-ADB It's finished Thank you for using MNSTools           ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download PhoneSploit
@@ -182,6 +188,8 @@ elif nmb=="5":
     os.system('mv PhoneSploit $HOME ')
     os.system('cd && cd PhoneSploit && chmod +x phonesploit.py && python phonesploit.py ')
     jalan ("\033[1;31m Download PhoneSploit It's finished Thank you for using MNSTools           ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Saycheese
@@ -194,6 +202,8 @@ elif nmb=="6":
     os.system('mv saycheese $HOME ')
     os.system('cd && cd saycheese && chmod +x saycheese.sh && ./saycheese.sh ')
     jalan ("\033[1;31m Download Saycheese It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Seeker
@@ -206,6 +216,8 @@ elif nmb=="7":
     os.system('mv seeker $HOME ')
     os.system('cd && cd seeker && pip install requests && chmod +x seeker.py && python seeker.py -t manual ')
     jalan ("\033[1;31m Download Seeker It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Grabcam
@@ -219,6 +231,8 @@ elif nmb=="8":
     os.system('mv grabcam $HOME ')
     os.system('cd && cd grabcam && chmod +x grabcam.sh && bash grabcam.sh ')
     jalan ("\033[1;31m Download Grabcam It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Hacklock
@@ -232,6 +246,8 @@ elif nmb=="9":
     os.system('mv hacklock $HOME ')
     os.system('cd && cd hacklock && chmod +x * && bash setup ')
     jalan ("\033[1;31m Download Hacklock It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Zphisher
@@ -244,6 +260,8 @@ elif nmb=="10":
     os.system('mv zphisher $HOME ')
     os.system('cd && cd zphisher && chmod +x saycheese.sh && bash zphisher.sh ')
     jalan ("\033[1;31m Download Zphisher It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download FotoSploit
@@ -256,6 +274,8 @@ elif nmb=="11":
     os.system('mv FotoSploit $HOME ')
     os.system('cd && cd FotoSploit && chmod +x * && bash install.sh && ./FotoSploit ')
     jalan ("\033[1;31m Download FotoSploit It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download EasY_HaCk
@@ -268,6 +288,8 @@ elif nmb=="12":
     os.system('mv EasY_HaCk $HOME ')
     os.system('cd && cd EasY_HaCk && chmod +x install.sh && ./install.sh ')
     jalan ("\033[1;31m Download EasY_HaCk It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download T-Phish
@@ -280,6 +302,8 @@ elif nmb=="13":
     os.system('mv T-Phish $HOME ')
     os.system('cd && cd T-Phish & unzip T-Phish.zip && cd T-Phish && chmod +x * && ./start.sh && ./phish.sh ')
     jalan ("\033[1;31m Download T-Phish It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Sayhello
@@ -292,6 +316,8 @@ elif nmb=="14":
     os.system('mv sayhellodeepak $HOME ')
     os.system('cd && cd sayhellodeepak && chmod +x sayhello.sh && bash sayhello.sh ')
     jalan ("\033[1;31m Download Sayhello It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Lockphish
@@ -304,6 +330,8 @@ elif nmb=="15":
     os.system('mv lockphish $HOME ')
     os.system('cd && cd lockphish && chmod +x lockphish.sh && bash lockphish.sh ')
     jalan ("\033[1;31m Download Lockphish It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Cam-Hackers
@@ -316,6 +344,8 @@ elif nmb=="16":
     os.system('mv Cam-Hackers $HOME ')
     os.system('cd && cd Cam-Hackers && chmod +x cam-hackers.py && python3 cam-hackers.py ')
     jalan ("\033[1;31m Download Cam-Hackers It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Anon-SMS
@@ -328,6 +358,8 @@ elif nmb=="17":
     os.system('mv Anon-SMS $HOME ')
     os.system('cd && cd Anon-SMS && chmod +x * && bash Run.sh ')
     jalan ("\033[1;31m Download Anon-SMS It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Tool-X
@@ -340,6 +372,8 @@ elif nmb=="18":
     os.system('mv Tool-X $HOME ')
     os.system('cd && cd Tool-X && chmod +x install.aex && ./install.aex ')
     jalan ("\033[1;31m Download Tool-X It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Metasploit
@@ -352,6 +386,8 @@ elif nmb=="19":
     os.system('mv Metasploit-Installation $HOME ')
     os.system('cd && cd Metasploit-Installation && chmod +x setup.sh && bash setup.sh && bash metasploit.sh ')
     jalan ("\033[1;31m Download Metasploit It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Lazymux
@@ -364,6 +400,8 @@ elif nmb=="20":
     os.system('mv Lazymux $HOME ')
     os.system('cd && cd Lazymux && chmod +x lazymux.py && python lazymux.py ')
     jalan ("\033[1;31m Download Lazymux It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download MNSLock
@@ -377,6 +415,8 @@ elif nmb=="21":
     os.system('cd && cd MNSLock && chmod +x install.sh && bash install.sh ')
     os.system('cd && rm -rf MNSLock ')
     jalan ("\033[1;31m Download MNSLock It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download TermuxLock
@@ -390,6 +430,8 @@ elif nmb=="22":
     os.system('cd && cd TermuxLock && chmod +x install.sh && bash install.sh ')
     os.system('cd && rm -rf TermuxLock ')
     jalan ("\033[1;31m Download TermuxLock It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download MNSTermux
@@ -403,6 +445,8 @@ elif nmb=="23":
     os.system('cd && cd MNSTermux && chmod +x setup.sh && bash setup.sh ')
     os.system('cd && rm -rf MNSTermux ')
     jalan ("\033[1;31m Download MNSTermux It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download IP Tracer
@@ -415,6 +459,8 @@ elif nmb=="24":
     os.system('mv IP-Tracer $HOME ')
     os.system('cd && cd IP-Tracer && chmod +x install && ./install ')
     jalan ("\033[1;31m Download IP Tracer It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download MNSNgrok
@@ -428,6 +474,8 @@ elif nmb=="25":
     os.system('cd && cd MNSNgrok && chmod +x setup.sh && bash setup.sh ')
     os.system('cd && rm -rf MNSNgrok ')
     jalan ("\033[1;31m Download MNSNgrok It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download MNSUbuntu
@@ -442,6 +490,8 @@ elif nmb=="26":
     os.system('exit ')
     jalan ("\033[1;31m....................Start Ubuntu Type \033[1;34m./startubuntu.sh\033[1;31m.......................")
     jalan ("\033[1;31m Download MNSUbuntu It's Finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download 
@@ -449,7 +499,10 @@ elif nmb=="27":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download Please Wait.                    ")
     os.system('apt update && apt upgrade')
+    os.system('clear ')
     jalan ("\033[1;31m Download  It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Download Update MNSTools
@@ -458,11 +511,15 @@ elif nmb=="99":
     jalan("\033[1;33m Starting To Download MNSTools Please Wait.                     ")
     os.system('apt update && apt upgrade')
     os.system('pkg install python -y ')
+    os.system('clear ')
     jalan ("\033[1;31m Updated MNSTools It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.9)
     os.system('python install.py ')
 
 #Try ouvert my tool
 else :
     print ("\033[1;31m                  X_False number try again_X         ")
-    time.sleep(00000.10)
+    os.system('figlet MNSTools ')
+    time.sleep(000.10)
     os.system('python install.py ')
