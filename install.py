@@ -501,7 +501,7 @@ elif nmb=="27":
     os.system('apt update && apt upgrade')
     os.system('git clone https://github.com/SirManishKumar/MNSSnake ')
     os.system('mv MNSSnake $HOME ')
-    os.system('cd && cd MNSSnake && chmod +x snake.py && python snake.py ')
+    os.system('cd && cd MNSSnake && chmod +x snake.py && rm -rf nn_1.py nn_2.py && python snake.py ')
     jalan ("\033[1;31m Download MNSSnake It's finished Thank you for using MNSTools               ")
     os.system('figlet MNSTools ')
     time.sleep(000.10)
