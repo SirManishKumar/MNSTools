@@ -514,6 +514,7 @@ elif nmb=="99":
     os.system('apt update && apt upgrade')
     os.system('pkg install python -y ')
     os.system('git clone https://github.com/SirManishKumar/MNSUpgrade')
+    os.system('mv MNSUpgrade $HOME')
     os.system('cd && cd MNSUpgrade')
     os.system('bash Upgrade.sh')
     os.system('clear ')
