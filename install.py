@@ -510,9 +510,12 @@ elif nmb=="27":
 #Download Update MNSTools
 elif nmb=="99":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
-    jalan("\033[1;33m Starting To Download MNSTools Please Wait.                     ")
+    jalan("\033[1;33m Starting To Update MNSTools Please Wait.                       ")
     os.system('apt update && apt upgrade')
     os.system('pkg install python -y ')
+    os.system('git clone https://github.com/SirManishKumar/MNSUpgrade')
+    os.system('cd && cd MNSUpgrade')
+    os.system('bash Upgrade.sh')
     os.system('clear ')
     jalan ("\033[1;31m Updated MNSTools It's finished Thank you for using MNSTools               ")
     os.system('figlet MNSTools ')
