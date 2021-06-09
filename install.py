@@ -39,7 +39,7 @@ print ("\033[1;31m [7]  \033[1;32m Seeker         \033[1;31m [16] \033[1;32m Cam
 print ("\033[1;31m [8]  \033[1;32m Grabcam        \033[1;31m [17] \033[1;32m Anon-SMS       \033[1;31m [26] \033[1;32m MNSUbuntu ")
 print ("\033[1;31m [9]  \033[1;32m Hacklock       \033[1;31m [18] \033[1;32m Tool-X         \033[1;31m [27] \033[1;32m MNSSnake ")
 print("")
-print ("\033[1;31m                                    [30] \033[1;36m Download All Tools In One Click ")
+print ("\033[1;31m                [30] \033[1;36m Download All Tools In One Click ")
 print ("\033[1;31m [0] \033[1;32m Exit     \033[1;31m [99] \033[1;32m Update     \033[1;31m [r] \033[1;32m Restart   \033[1;31m [g] \033[1;32m Github ")
 print ("\033[1;31m [y] \033[1;32m Youtube   \033[1;31m [f] \033[1;32m Facebook   \033[1;31m [t] \033[1;32m Twitter   \033[1;31m [w] \033[1;32m WhatsApp ")
 print("")
