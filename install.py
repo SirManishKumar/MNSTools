@@ -39,6 +39,8 @@ print ("\033[1;31m [7]  \033[1;32m Seeker         \033[1;31m [16] \033[1;32m Cam
 print ("\033[1;31m [8]  \033[1;32m Grabcam        \033[1;31m [17] \033[1;32m Anon-SMS       \033[1;31m [26] \033[1;32m MNSUbuntu ")
 print ("\033[1;31m [9]  \033[1;32m Hacklock       \033[1;31m [18] \033[1;32m Tool-X         \033[1;31m [27] \033[1;32m MNSSnake ")
 print("")
+print ("\033[1;31m          [28] \033[1;32m MNSContact       \033[1;31m [29] \033[1;32m MNSGranth ")
+print("")
 print ("\033[1;31m                [30] \033[1;36m Download All Tools In One Click ")
 print ("\033[1;31m [0] \033[1;32m Exit     \033[1;31m [99] \033[1;32m Update     \033[1;31m [r] \033[1;32m Restart   \033[1;31m [g] \033[1;32m Github ")
 print ("\033[1;31m [y] \033[1;32m Youtube   \033[1;31m [f] \033[1;32m Facebook   \033[1;31m [t] \033[1;32m Twitter   \033[1;31m [w] \033[1;32m WhatsApp ")
@@ -504,6 +506,32 @@ elif nmb=="27":
     os.system('mv MNSSnake $HOME ')
     os.system('cd && cd MNSSnake && chmod +x snake.py && rm -rf nn_1.py nn_2.py && python snake.py ')
     jalan ("\033[1;31m Download MNSSnake It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.10)
+    os.system('python install.py ')
+
+#Download MNSContact
+elif nmb=="28":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download MNSContact Please Wait.                     ")
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/MNSContact ')
+    os.system('mv MNSContact $HOME ')
+    os.system('cd && cd MNSContact && chmod +x connect.sh && bash connect.sh ')
+    jalan ("\033[1;31m Download MNSContact It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.10)
+    os.system('python install.py ')
+
+#Download MNSGranth
+elif nmb=="29":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download MNSGranth Please Wait.                     ")
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/MNSGranth ')
+    os.system('mv MNSGranth $HOME ')
+    os.system('cd && cd MNSGranth && chmod +x read.sh && bash read.sh ')
+    jalan ("\033[1;31m Download MNSGranth It's finished Thank you for using MNSTools               ")
     os.system('figlet MNSTools ')
     time.sleep(000.10)
     os.system('python install.py ')
