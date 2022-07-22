@@ -20,7 +20,7 @@ logo = ("""\033[1;36m                              __
 \033[1;37m | |  | | (_| | | | | \__ \ | | | . \ |_| | | | | | | (_| | |
 \033[1;32m |_|  |_|\__,_|_| |_|_|___/_| |_|_|\_\__,_|_| |_| |_|\__,_|_|""")
 #my logo
-print(logo)
+print("logo")
 jalan(" ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮ ")
 jalan("\033[1;32m |   \033[1;31mCreated By:- https://github.com/SirManishKumar/MNSTools\033[1;32m  | ")
 jalan("\033[1;32m |             \033[1;33mMy youtube channel: SirManishKumar\033[1;32m             | ")
