@@ -36,10 +36,10 @@ print ("\033[1;31m [4]  \033[1;32m Termux-ADB     \033[1;31m [15] \033[1;32m Loc
 print ("\033[1;31m [5]  \033[1;32m PhoneSploit    \033[1;31m [16] \033[1;32m Cam-Hackers    \033[1;31m [27] \033[1;32m MNSSnake ")
 print ("\033[1;31m [6]  \033[1;32m Saycheese      \033[1;31m [17] \033[1;32m Anon-SMS       \033[1;31m [28] \033[1;32m MNSContact ")
 print ("\033[1;31m [7]  \033[1;32m Seeker         \033[1;31m [18] \033[1;32m Tool-X         \033[1;31m [29] \033[1;32m MNSGranth ")
-print ("\033[1;31m [8]  \033[1;32m Grabcam        \033[1;31m [19] \033[1;32m Metasploit     \033[1;31m [30] \033[1;32m  ")
-print ("\033[1;31m [9]  \033[1;32m Hacklock       \033[1;31m [20] \033[1;32m Lazymux        \033[1;31m [31] \033[1;32m  ")
-print ("\033[1;31m[10]  \033[1;32m Zphisher       \033[1;31m [21] \033[1;32m IP Tracer      \033[1;31m [32] \033[1;32m  ")
-print ("\033[1;31m[11]  \033[1;32m FotoSploit     \033[1;31m [22] \033[1;32m TermuxLock     \033[1;31m [33] \033[1;32m  ")
+print ("\033[1;31m [8]  \033[1;32m Grabcam        \033[1;31m [19] \033[1;32m Metasploit     \033[1;31m [30] \033[1;32m MNSUpgrade ")
+print ("\033[1;31m [9]  \033[1;32m Hacklock       \033[1;31m [20] \033[1;32m Lazymux        \033[1;31m [31] \033[1;32m MNSAllTools ")
+print ("\033[1;31m[10]  \033[1;32m Zphisher       \033[1;31m [21] \033[1;32m IP Tracer      \033[1;31m [32] \033[1;32m MNSBasicTool ")
+print ("\033[1;31m[11]  \033[1;32m FotoSploit     \033[1;31m [22] \033[1;32m TermuxLock     \033[1;31m [33] \033[1;32m WhatsAppBom ")
 print("")
 print ("\033[1;31m                [34] \033[1;36m Download All Tools In One Click ")
 print("")
@@ -537,8 +537,60 @@ elif nmb=="29":
     time.sleep(000.10)
     os.system('python install.py ')
 
-#Download All Tools
+#Download MNSUpgrade
 elif nmb=="30":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download MNSUpgrade Please Wait.                     ")
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/MNSUpgrade ')
+    os.system('mv MNSUpgrade $HOME ')
+    os.system('cd && cd MNSUpgrade && chmod +x Upgrade.sh && bash Upgrade.sh ')
+    jalan ("\033[1;31m Download MNSSnake It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.10)
+    os.system('python install.py ')
+
+#Download MNSAllTools
+elif nmb=="31":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download MNSAllTools Please Wait.                     ")
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/MNSAllTools ')
+    os.system('mv MNSAllTools $HOME ')
+    os.system('cd && cd MNSAllTools && chmod 777* && bash installer.sh && bash install.sh ')
+    jalan ("\033[1;31m Download MNSContact It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.10)
+    os.system('python install.py ')
+
+#Download MNSBasicTool
+elif nmb=="32":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download MNSBasicTool Please Wait.                     ")
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/MNSBasicTool ')
+    os.system('mv MNSBasicTool $HOME ')
+    os.system('cd && cd MNSBasicTool && chmod +x Tools.py && python Tools.py ')
+    jalan ("\033[1;31m Download MNSGranth It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.10)
+    os.system('python install.py ')
+
+#Download WhatsAppBom
+elif nmb=="33":
+    jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
+    jalan("\033[1;33m Starting To Download WhatsAppBom Please Wait.                     ")
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/WhatsAppBom ')
+    os.system('mv WhatsAppBom $HOME ')
+    os.system('cd && cd WhatsAppBom && chmod 777* && python whatsbom.py && bash whatsbom.sh ')
+    jalan ("\033[1;31m Download MNSGranth It's finished Thank you for using MNSTools               ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.10)
+    os.system('python install.py ')
+
+#Download All Tools
+elif nmb=="34":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Download All Tools In One Click Please Wait.       ")
     os.system('apt update && apt upgrade -y ')
