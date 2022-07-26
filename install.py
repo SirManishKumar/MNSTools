@@ -776,7 +776,7 @@ elif nmb=="99":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Update MNSTools Please Wait.                       ")
     os.system('rm -rf /data/data/com.termux/files/home/MNSTools ')
-    os.system('cd .. ')
+    os.system('cd ')
     os.system('apt update && apt upgrade ')
     os.system('git clone https://github.com/SirManishKumar/MNSTools ')
     os.system('cd && cd MNSTools && chmod +x install.py ')
