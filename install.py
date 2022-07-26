@@ -775,11 +775,15 @@ elif nmb=="34":
 elif nmb=="99":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Update MNSTools Please Wait.                       ")
-    os.system('rm -rf /data/data/com.termux/files/home/MNSTools ')
-    os.system('cd ')
-    os.system('apt update && apt upgrade ')
-    os.system('git clone https://github.com/SirManishKumar/MNSTools ')
-    os.system('cd && cd MNSTools && chmod +x install.py ')
+    os.system('termux-setup-storage ')
+    os.system('apt update && apt upgrade')
+    os.system('git clone https://github.com/SirManishKumar/MNSUpgrade ')
+    os.system('mv MNSUpgrade $HOME ')
+    os.system('cd && cd MNSUpgrade && chmod +x Upgrade.sh && bash Upgrade.sh ')
+    os.system('cd && rm -rf MNSUpgrade ')
+    jalan ("\033[1;31m Updated MNSTools It's finished Thank you for using MNSTools   ")
+    os.system('figlet MNSTools ')
+    time.sleep(000.10)
     os.system('python install.py ')
 
 #Try ouvert my tool
