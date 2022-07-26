@@ -775,6 +775,8 @@ elif nmb=="34":
 elif nmb=="99":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Update MNSTools Please Wait.                       ")
+    os.system('exit ')
+    os.system('cd ')
     os.system('apt update && apt upgrade ')
     os.system('cd && rm -rf MNSTools ')
     os.system('git clone https://github.com/SirManishKumar/MNSTools ')
