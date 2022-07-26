@@ -778,11 +778,7 @@ elif nmb=="99":
     os.system('apt update && apt upgrade ')
     os.system('cd && rm -rf MNSTools ')
     os.system('git clone https://github.com/SirManishKumar/MNSTools ')
-    os.system('cd && cd MNSTools && chmod +x install.py && python install.py ')
-    os.system('0 ')
-    jalan ("\033[1;31m Updated MNSTools It's finished Thank you for using MNSTools               ")
-    os.system('figlet MNSTools ')
-    time.sleep(000.10)
+    os.system('cd && cd MNSTools && chmod +x install.py ')
     os.system('python install.py ')
 
 #Try ouvert my tool
